@@ -15,7 +15,7 @@ jobs:
     env:
       DATA_DIRECTORY: data
       OUTPUT_DIRECTORY: generated
-      IMAGE: ghcr.io/nayetdet/resume:latest
+      IMAGE: ghcr.io/garapatech/antimeta-resume:latest
 
     steps:
       - name: Checkout
