@@ -45,6 +45,9 @@ jobs:
   release:
     needs: [generate]
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
     steps:
       - name: Download artifact
         uses: actions/download-artifact@v8

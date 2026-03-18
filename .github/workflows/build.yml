@@ -34,14 +34,22 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
+      - id: metadata
+        name: Generate image metadata
+        uses: docker/metadata-action@v5
+        with:
+          images: ${{ env.REGISTRY }}/${{ github.repository }}
+          tags: |
+            type=raw,value=latest
+            type=raw,value=sha-${{ github.sha }}
+
       - name: Build and Push
         uses: docker/build-push-action@v7
         with:
           context: .
           push: true
-          tags: |
-            ${{ env.REGISTRY }}/${{ github.repository }}:latest
-            ${{ env.REGISTRY }}/${{ github.repository }}:sha-${{ github.sha }}
+          tags: ${{ steps.metadata.outputs.tags }}
+          labels: ${{ steps.metadata.outputs.labels }}
           cache-from: type=gha
           cache-to: type=gha,mode=max
 
