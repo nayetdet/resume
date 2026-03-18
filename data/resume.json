@@ -1,0 +1,204 @@
+{
+  "basics": {
+    "name": "João Pedro Moreira Campos de Lima",
+    "label": "Desenvolvedor Full Stack",
+    "email": "jpmoreiracampos21@gmail.com",
+    "phone": "+55 85 99628-5653",
+    "summary": "Desenvolvedor de software com experiência em backend, full stack e ciência de dados, atuando na construção de APIs REST, pipelines ETL, plataformas web e sistemas orientados a dados. Trabalha com Python, FastAPI, Java, Spring Boot, Angular, Next.js, TypeScript e SQL, além de experiência com machine learning, análise de dados, web scraping, autenticação e autorização, integração entre serviços, Docker, GitHub Actions e CI/CD.",
+    "location": {
+      "city": "Fortaleza",
+      "region": "Ceará",
+      "countryCode": "Brasil"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "joao-pedro-moreira-campos",
+        "url": "https://www.linkedin.com/in/joao-pedro-moreira-campos/"
+      },
+      {
+        "network": "GitHub",
+        "username": "nayetdet",
+        "url": "https://github.com/nayetdet"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "NUVEN - IFCE",
+      "position": "Cientista de Dados (Estágio)",
+      "location": "Maracanaú, CE",
+      "startDate": "2025-07",
+      "summary": "Atuação no desenvolvimento de uma plataforma de dados voltada à análise de conteúdo em redes sociais.",
+      "highlights": [
+        "Atuação em plataforma de dados para análise de conteúdo em Instagram, Facebook e LinkedIn, com foco em inteligência de dados",
+        "Construção de pipelines ETL para coleta, normalização, processamento e enriquecimento de dados estruturados e não estruturados",
+        "Utilização de Apache Kafka para integração de dados e comunicação com outros times de desenvolvimento",
+        "Criação de dashboards, consultas analíticas e indicadores para monitoramento de métricas e apoio à tomada de decisão",
+        "Aplicação de classificação de conteúdo, análises automatizadas e modelos de machine learning para predição de viralização"
+      ]
+    },
+    {
+      "name": "Movias - UECE",
+      "position": "Cientista de Dados (Estágio)",
+      "location": "Remoto",
+      "startDate": "2025-10",
+      "endDate": "2026-03",
+      "summary": "Desenvolvimento de uma stack de extração, processamento e predição de dados veiculares baseada em microsserviços Python.",
+      "highlights": [
+        "Desenvolvimento de microsserviços e APIs REST em Python e FastAPI para extração, atualização e predição de dados veiculares",
+        "Evolução do módulo de IA com leitura e processamento de CSV, atualização de perfis, classificação baseada em machine learning e clusterização com K-Means",
+        "Implementação de gateway unificado com FastAPI, Swagger/OpenAPI e health checks para integração entre os serviços extractor e AI",
+        "Containerização e automação do ambiente com Docker, Docker Compose e Makefile, incluindo ajustes de configuração e processamento"
+      ]
+    },
+    {
+      "name": "LabVicia - IFCE",
+      "position": "Desenvolvedor Full Stack (Estágio)",
+      "location": "Remoto",
+      "startDate": "2025-05",
+      "endDate": "2025-09",
+      "summary": "Atuação no desenvolvimento e evolução do sistema Integra-MEC, voltado a processos administrativos da SETEC/MEC.",
+      "highlights": [
+        "Desenvolvimento full stack com Java, Spring Boot, Angular e TypeScript no sistema Integra-MEC",
+        "Implementação de módulos administrativos, autenticação, autorização e controle de acesso com integração ao Keycloak",
+        "Criação e manutenção de APIs REST, filtros, paginação, relatórios e templates HTML para fluxos internos da plataforma",
+        "Atuação em manutenção corretiva e evolutiva, integrando backend, frontend, regras de negócio e experiência do usuário"
+      ]
+    },
+    {
+      "name": "Núcleo de Desenvolvimento de Software (NDS) - IFCE",
+      "position": "Desenvolvedor Backend (Estágio)",
+      "location": "Maracanaú, CE",
+      "startDate": "2024-10",
+      "endDate": "2025-05",
+      "summary": "Atuação em backend com foco em APIs e arquitetura de microsserviços.",
+      "highlights": [
+        "Desenvolvimento e manutenção de APIs REST com C# e .NET para serviços backend",
+        "Implementação de arquitetura baseada em microsserviços e padrão CQRS",
+        "Integração com banco de dados MySQL, consultas SQL e escrita de testes unitários com mocks",
+        "Atuação em code reviews e rotinas ágeis utilizando Scrum e Kanban"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Instituto Federal de Educação, Ciência e Tecnologia do Ceará (IFCE)",
+      "area": "Ciência da Computação",
+      "studyType": "Bacharelado",
+      "startDate": "2024",
+      "endDate": "2028"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Backend",
+      "keywords": [
+        "Java",
+        "Spring Boot",
+        "Python",
+        "FastAPI",
+        "Flask",
+        "APIs REST",
+        "Microserviços",
+        "CQRS",
+        "JWT",
+        "Keycloak (OAuth2, OIDC)",
+        "MinIO",
+        "Apache Kafka"
+      ]
+    },
+    {
+      "name": "Frontend",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "SCSS",
+        "Tailwind CSS",
+        "JavaScript",
+        "TypeScript",
+        "Next.js",
+        "Angular"
+      ]
+    },
+    {
+      "name": "Bancos de Dados",
+      "keywords": [
+        "PostgreSQL",
+        "MySQL",
+        "MongoDB",
+        "Redis"
+      ]
+    },
+    {
+      "name": "Dados, IA & Visão Computacional",
+      "keywords": [
+        "NumPy",
+        "Pandas",
+        "LangChain",
+        "LlamaIndex",
+        "YOLO v8/v11",
+        "OpenCV",
+        "EasyOCR",
+        "Integração de LLM via API"
+      ]
+    },
+    {
+      "name": "DevOps & Ferramentas",
+      "keywords": [
+        "Docker",
+        "Git",
+        "CI/CD (GitHub Actions)",
+        "Swagger/OpenAPI",
+        "NGINX",
+        "Caddy",
+        "Playwright"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Universidade Brasileira Livre",
+      "position": "Desenvolvedor Full Stack - Contribuição Open Source",
+      "url": "https://github.com/Universidade-Livre/universidade",
+      "startDate": "2025-08",
+      "summary": "Contribuição open source voluntária no desenvolvimento da plataforma UBL, que funciona como portal das disciplinas e grades curriculares dos cursos de Ciência da Computação e Matemática.",
+      "highlights": [
+        "Apoio no desenvolvimento full stack do portal das grades e disciplinas de Ciência da Computação e Matemática com Next.js, React, TypeScript, tRPC, Prisma e PostgreSQL",
+        "Implementação de funcionalidades para navegação dos cursos, acompanhamento de progresso, autenticação e experiência do usuário",
+        "Melhoria da segurança e confiabilidade com validações, proteção de rotas, controle de acesso e rate limiting",
+        "Estruturação de ambiente e entrega com Docker, Prisma, GitHub Actions e CI/CD para build e deploy"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Português",
+      "fluency": "Nativo"
+    },
+    {
+      "language": "Inglês",
+      "fluency": "Avançado"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Curso de Inglês - Nível Intermediário",
+      "issuer": "Centro de Línguas e Ensino do Ceará (CLEC)",
+      "date": "2021-07-01"
+    },
+    {
+      "name": "Curso de Inglês - Nível Avançado",
+      "issuer": "Centro de Línguas e Ensino do Ceará (CLEC)",
+      "date": "2025-07-01"
+    },
+    {
+      "name": "React - The Complete Guide (incl. Next.js, Redux)",
+      "issuer": "Udemy",
+      "date": "2026-02"
+    }
+  ],
+  "meta": {
+    "version": "v1.0.0"
+  }
+}
