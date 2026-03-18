@@ -23,7 +23,7 @@ wheels = [
 [[package]]
 name = "antimeta-resume"
 version = "1.0.0"
-source = { git = "https://github.com/garapatech/antimeta-resume.git#7676f0f4ae8ea8903ada976cddb94f3fc94edd10" }
+source = { git = "https://github.com/garapatech/antimeta-resume.git#78bee878578136146a94838ac876dea6dffc9729" }
 dependencies = [
     { name = "babel" },
     { name = "markupsafe" },
