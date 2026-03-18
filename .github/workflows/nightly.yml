@@ -1,0 +1,64 @@
+name: Nightly
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+env:
+  ARTIFACT_NAME: resume
+  FILENAME: resume.pdf
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    env:
+      DATA_DIRECTORY: data
+      OUTPUT_DIRECTORY: generated
+      IMAGE: ghcr.io/nayetdet/resume:latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 1
+      
+      - name: Pull container image
+        run: docker pull ${{ env.IMAGE }}
+      
+      - name: Run container
+        run: |
+          mkdir -p generated
+          docker run \
+            --init \
+            --rm \
+            -v ${{ github.workspace }}/${{ env.DATA_DIRECTORY }}:/app/${{ env.DATA_DIRECTORY }} \
+            -v ${{ github.workspace }}/${{ env.OUTPUT_DIRECTORY }}:/app/${{ env.OUTPUT_DIRECTORY }} \
+            ${{ env.IMAGE }}  
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v7
+        with:
+          name: ${{ env.ARTIFACT_NAME }}
+          path: ${{ env.OUTPUT_DIRECTORY }}/${{ env.FILENAME }}
+
+  release:
+    needs: [generate]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download artifact
+        uses: actions/download-artifact@v8
+        with:
+          name: ${{ env.ARTIFACT_NAME }}
+          path: .
+
+      - name: Upsert release
+        uses: softprops/action-gh-release@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: nightly
+          name: Nightly
+          prerelease: true
+          files: ${{ env.FILENAME }}
+          overwrite_files: true
