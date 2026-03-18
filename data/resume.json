@@ -127,7 +127,8 @@
         "PostgreSQL",
         "MySQL",
         "MongoDB",
-        "Redis"
+        "Redis",
+        "Elasticsearch"
       ]
     },
     {
