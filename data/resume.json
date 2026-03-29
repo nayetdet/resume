@@ -4,17 +4,17 @@
     "label": "Desenvolvedor Full Stack",
     "email": "jpmoreirac21@gmail.com",
     "phone": "+55 85 99628-5653",
-    "summary": "Desenvolvedor de software com experiência em backend, full stack e ciência de dados, atuando na construção de APIs REST, pipelines ETL, plataformas web e sistemas orientados a dados. Trabalha com Python, FastAPI, Java, Spring Boot, Angular, Next.js, TypeScript e SQL, além de experiência com machine learning, análise de dados, web scraping, autenticação e autorização, integração entre serviços, Docker, GitHub Actions e CI/CD.",
+    "summary": "Engenheiro de software backend com foco em automação, dados e sistemas, transformando processos manuais em APIs, microsserviços e pipelines operáveis. Atua com Python/FastAPI, Java/Spring Boot e C#/.NET, além de SQL, Docker e CI/CD, entregando integrações entre serviços, backends orientados a dados e automações resilientes para execução contínua.",
     "location": {
       "city": "Fortaleza",
       "region": "Ceará",
-      "countryCode": "Brasil"
+      "countryCode": "BR"
     },
     "profiles": [
       {
         "network": "LinkedIn",
-        "username": "joao-pedro-moreira-campos",
-        "url": "https://www.linkedin.com/in/joao-pedro-moreira-campos/"
+        "username": "jpmoreiracampos",
+        "url": "https://www.linkedin.com/in/jpmoreiracampos"
       },
       {
         "network": "GitHub",
@@ -29,13 +29,12 @@
       "position": "Cientista de Dados (Estágio)",
       "location": "Maracanaú, CE",
       "startDate": "2025-07",
-      "summary": "Atuação no desenvolvimento de uma plataforma de dados voltada à análise de conteúdo em redes sociais.",
+      "summary": "Plataforma de dados para monitoramento e análise de conteúdo em redes sociais, com foco em inteligência, automação e suporte à decisão.",
       "highlights": [
-        "Atuação em plataforma de dados para análise de conteúdo em Instagram, Facebook e LinkedIn, com foco em inteligência de dados",
-        "Construção de pipelines ETL para coleta, normalização, processamento e enriquecimento de dados estruturados e não estruturados",
-        "Utilização de Apache Kafka para integração de dados e comunicação com outros times de desenvolvimento",
-        "Criação de dashboards, consultas analíticas e indicadores para monitoramento de métricas e apoio à tomada de decisão",
-        "Aplicação de classificação de conteúdo, análises automatizadas e modelos de machine learning para predição de viralização"
+        "Projetou pipelines ETL para coletar, normalizar e enriquecer dados de Instagram, Facebook e LinkedIn, consolidando 3 redes em uma base analítica única para comparação, monitoramento e leitura contínua de desempenho.",
+        "Estruturou integração orientada a eventos com Apache Kafka, desacoplando ingestão, processamento e consumo analítico e reduzindo atrito entre serviços e times de desenvolvimento.",
+        "Entregou dashboards, consultas analíticas e KPIs sobre milhares de registros por ciclo, convertendo dados brutos em visibilidade operacional para tomada de decisão.",
+        "Aplicou classificação automática e modelos de predição de viralização sobre dados estruturados e não estruturados, escalando análises que antes dependeriam de triagem manual."
       ]
     },
     {
@@ -44,12 +43,12 @@
       "location": "Remoto",
       "startDate": "2025-10",
       "endDate": "2026-03",
-      "summary": "Desenvolvimento de uma stack de extração, processamento e predição de dados veiculares baseada em microsserviços Python.",
+      "summary": "Stack de microsserviços em Python para ingestão, atualização e predição de dados veiculares.",
       "highlights": [
-        "Desenvolvimento de microsserviços e APIs REST em Python e FastAPI para extração, atualização e predição de dados veiculares",
-        "Evolução do módulo de IA com leitura e processamento de CSV, atualização de perfis, classificação baseada em machine learning e clusterização com K-Means",
-        "Implementação de gateway unificado com FastAPI, Swagger/OpenAPI e health checks para integração entre os serviços extractor e AI",
-        "Containerização e automação do ambiente com Docker, Docker Compose e Makefile, incluindo ajustes de configuração e processamento"
+        "Projetou microsserviços e APIs REST em Python/FastAPI para extração, atualização e predição de dados veiculares, separando coleta, IA e integração em uma stack mais modular e operável.",
+        "Evoluiu o serviço de IA com ingestão de CSV, atualização de perfis e modelos de classificação e clusterização com K-Means, automatizando segmentações antes executadas manualmente.",
+        "Implementou gateway unificado com Swagger/OpenAPI e health checks para 2 serviços críticos, reduzindo fricção de integração e acelerando troubleshooting.",
+        "Containerizou 100% do ambiente com Docker, reduzindo setup local de horas para minutos e padronizando execução entre desenvolvimento e testes."
       ]
     },
     {
@@ -58,12 +57,12 @@
       "location": "Remoto",
       "startDate": "2025-05",
       "endDate": "2025-09",
-      "summary": "Atuação no desenvolvimento e evolução do sistema Integra-MEC, voltado a processos administrativos da SETEC/MEC.",
+      "summary": "Evolução do Integra-MEC, sistema administrativo da SETEC/MEC, com foco em backend, segurança e fluxos internos críticos.",
       "highlights": [
-        "Desenvolvimento full stack com Java, Spring Boot, Angular e TypeScript no sistema Integra-MEC",
-        "Implementação de módulos administrativos, autenticação, autorização e controle de acesso com integração ao Keycloak",
-        "Criação e manutenção de APIs REST, filtros, paginação, relatórios e templates HTML para fluxos internos da plataforma",
-        "Atuação em manutenção corretiva e evolutiva, integrando backend, frontend, regras de negócio e experiência do usuário"
+        "Desenvolveu módulos full stack do Integra-MEC com Java, Spring Boot, Angular e TypeScript, sustentando fluxos administrativos críticos da SETEC/MEC em ambiente institucional.",
+        "Implementou autenticação, autorização e segregação de acesso com Keycloak, ampliando segurança e governança para múltiplos perfis de usuário.",
+        "Entregou APIs REST, filtros, paginação, relatórios e templates HTML que reduziram retrabalho operacional e ampliaram autonomia do time administrativo.",
+        "Atuou ponta a ponta em manutenção corretiva e evolutiva, conectando backend, frontend e regras de negócio para acelerar entregas com menor risco de regressão."
       ]
     },
     {
@@ -72,12 +71,12 @@
       "location": "Maracanaú, CE",
       "startDate": "2024-10",
       "endDate": "2025-05",
-      "summary": "Atuação em backend com foco em APIs e arquitetura de microsserviços.",
+      "summary": "Desenvolvimento backend em .NET com foco em APIs, microsserviços e qualidade de entrega.",
       "highlights": [
-        "Desenvolvimento e manutenção de APIs REST com C# e .NET para serviços backend",
-        "Implementação de arquitetura baseada em microsserviços e padrão CQRS",
-        "Integração com banco de dados MySQL, consultas SQL e escrita de testes unitários com mocks",
-        "Atuação em code reviews e rotinas ágeis utilizando Scrum e Kanban"
+        "Desenvolveu e manteve APIs REST em C#/.NET para serviços backend, entregando novos endpoints e correções em arquitetura orientada a microsserviços.",
+        "Aplicou CQRS para separar comandos e consultas, simplificando a evolução do domínio e reduzindo impacto de mudanças nas regras de negócio.",
+        "Implementou integrações com MySQL, consultas SQL e testes unitários com mocks, aumentando confiabilidade do backend e reduzindo regressões em ciclos iterativos.",
+        "Participou de code reviews e ritos com Scrum e Kanban, contribuindo para cadência contínua e elevação do padrão técnico do time."
       ]
     }
   ],
@@ -97,8 +96,11 @@
         "Java",
         "Spring Boot",
         "Python",
+        "Django",
         "FastAPI",
         "Flask",
+        "C#/.NET",
+        "ASP.NET Core",
         "APIs REST",
         "Microserviços",
         "CQRS",
@@ -117,8 +119,8 @@
         "Tailwind CSS",
         "JavaScript",
         "TypeScript",
-        "Next.js",
-        "Angular"
+        "Angular",
+        "Next.js"
       ]
     },
     {
@@ -136,11 +138,9 @@
       "keywords": [
         "NumPy",
         "Pandas",
-        "LangChain",
-        "LlamaIndex",
-        "YOLO v8/v11",
         "OpenCV",
         "EasyOCR",
+        "YOLO v8/v11",
         "Integração de LLM via API"
       ]
     },
@@ -149,10 +149,12 @@
       "keywords": [
         "Docker",
         "Git",
+        "GitHub Actions",
         "CI/CD (GitHub Actions)",
         "Swagger/OpenAPI",
         "NGINX",
         "Caddy",
+        "Selenium",
         "Playwright"
       ]
     }
@@ -163,13 +165,26 @@
       "position": "Desenvolvedor Full Stack - Contribuição Open Source",
       "url": "https://github.com/Universidade-Livre/universidade",
       "startDate": "2025-08",
-      "summary": "Contribuição open source voluntária no desenvolvimento da plataforma UBL, que funciona como portal das disciplinas e grades curriculares dos cursos de Ciência da Computação e Matemática.",
+      "summary": "Contribuição open source na evolução da UBL, plataforma acadêmica para consulta de grades, disciplinas e progresso estudantil.",
       "highlights": [
-        "Apoio no desenvolvimento full stack do portal das grades e disciplinas de Ciência da Computação e Matemática com Next.js, React, TypeScript, tRPC, Prisma e PostgreSQL",
-        "Implementação de funcionalidades para navegação dos cursos, acompanhamento de progresso, autenticação e experiência do usuário",
-        "Melhoria da segurança e confiabilidade com validações, proteção de rotas, controle de acesso e rate limiting",
-        "Estruturação de ambiente e entrega com Docker, Prisma, GitHub Actions e CI/CD para build e deploy"
+        "Contribuiu para o portal acadêmico da UBL com Next.js, React, TypeScript, tRPC, Prisma e PostgreSQL, evoluindo navegação curricular e consulta de disciplinas para 2 cursos de graduação.",
+        "Implementou autenticação, proteção de rotas, validações e rate limiting, fortalecendo segurança e confiabilidade para uso público e autenticado.",
+        "Desenvolveu fluxos de acompanhamento de progresso e organização de trilhas, reduzindo fricção de uso e melhorando descoberta de conteúdo.",
+        "Padronizou ambiente e entrega com Docker, Prisma e GitHub Actions, automatizando build e deploy via CI/CD."
       ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Gatekeeper",
+      "description": "Sistema de automação contínua para monitorar promoções e resgatar jogos gratuitos da Epic Games, combinando integrações, browser automation, scraping híbrido e operação containerizada.",
+      "highlights": [
+        "Construiu um pipeline de scraping híbrido com aiohttp e Playwright para monitorar promoções, navegar fluxos dinâmicos da Epic Games e executar o resgate automático sem intervenção manual.",
+        "Implementou autenticação end-to-end, tratamento de redirecionamentos e adaptação a mudanças de layout, além de resolução de hCaptcha com Gemini 2.5 Flash, elevando a robustez de uma automação exposta a UI instável.",
+        "Persistiu estado de execução em SQLite e perfil de navegador em volume dedicado, evitando reprocessamento de itens já resgatados e sustentando execução recorrente com histórico local.",
+        "Containerizou a aplicação e automatizou a execução com Docker e GitHub Actions, permitindo operação recorrente com pouca intervenção manual."
+      ],
+      "url": "https://github.com/nayetdet/gatekeeper"
     }
   ],
   "languages": [
@@ -198,8 +213,5 @@
       "issuer": "Udemy",
       "date": "2026-02"
     }
-  ],
-  "meta": {
-    "version": "v1.0.0"
-  }
+  ]
 }
