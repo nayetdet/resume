@@ -7,7 +7,8 @@ on:
 
 env:
   ARTIFACT_NAME: resume
-  FILENAME: resume.pdf
+  EN_BASENAME: resume_en
+  PT_BR_BASENAME: resume_pt_br
 
 jobs:
   generate:
@@ -29,18 +30,26 @@ jobs:
       - name: Run container
         run: |
           mkdir -p generated
-          docker run \
-            --init \
-            --rm \
-            -v ${{ github.workspace }}/${{ env.DATA_DIRECTORY }}:/app/${{ env.DATA_DIRECTORY }} \
-            -v ${{ github.workspace }}/${{ env.OUTPUT_DIRECTORY }}:/app/${{ env.OUTPUT_DIRECTORY }} \
-            ${{ env.IMAGE }}  
+          for basename in "${{ env.PT_BR_BASENAME }}" "${{ env.EN_BASENAME }}"; do
+            docker run \
+              --init \
+              --rm \
+              -v "${{ github.workspace }}/${{ env.DATA_DIRECTORY }}:/app/${{ env.DATA_DIRECTORY }}" \
+              -v "${{ github.workspace }}/${{ env.OUTPUT_DIRECTORY }}:/app/${{ env.OUTPUT_DIRECTORY }}" \
+              ${{ env.IMAGE }} \
+              python -m antimeta_resume \
+              ${{ env.DATA_DIRECTORY }}/"${basename}.json" \
+              ${{ env.OUTPUT_DIRECTORY }}/"${basename}.pdf"
+          done
 
       - name: Upload artifact
         uses: actions/upload-artifact@v7
         with:
           name: ${{ env.ARTIFACT_NAME }}
-          path: ${{ env.OUTPUT_DIRECTORY }}/${{ env.FILENAME }}
+          path: |
+            ${{ env.OUTPUT_DIRECTORY }}/${{ env.EN_BASENAME }}.pdf
+            ${{ env.OUTPUT_DIRECTORY }}/${{ env.PT_BR_BASENAME }}.pdf
+          if-no-files-found: error
 
   release:
     needs: [generate]
@@ -62,5 +71,7 @@ jobs:
         with:
           tag_name: nightly
           name: Nightly
-          files: ${{ env.FILENAME }}
+          files: |
+            ${{ env.EN_BASENAME }}.pdf
+            ${{ env.PT_BR_BASENAME }}.pdf
           overwrite_files: true
