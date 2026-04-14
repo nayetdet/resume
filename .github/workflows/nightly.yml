@@ -8,7 +8,7 @@ on:
 env:
   ARTIFACT_NAME: resume
   EN_BASENAME: resume_en
-  PT_BR_BASENAME: resume_pt_br
+  PT_BR_BASENAME: resume_pt_BR
 
 jobs:
   generate:
