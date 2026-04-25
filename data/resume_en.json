@@ -1,10 +1,10 @@
 {
   "basics": {
     "name": "João Pedro Moreira Campos de Lima",
-    "label": "Full Stack Developer",
+    "label": "Backend Developer | Java/Spring Boot & Python/FastAPI | APIs, Microservices and Docker",
     "email": "jpmoreirac21@gmail.com",
     "phone": "+55 85 99628-5653",
-    "summary": "Backend software engineer focused on automation, data, and systems, turning manual processes into operable APIs, microservices, and pipelines. Works with Python/FastAPI, Java/Spring Boot, and C#/.NET, as well as SQL, Docker, and CI/CD, delivering service integrations, data-driven backends, and resilient automations for continuous execution.",
+    "summary": "Backend developer specialized in building APIs, microservices, and data-oriented systems with Java/Spring Boot, JSF/PrimeFaces, Python/FastAPI, Docker, Apache Kafka, and relational/non-relational databases. Experienced in ETL pipelines, AI automations, service integrations, and critical administrative systems with authentication, authorization, and access control.",
     "location": {
       "city": "Fortaleza",
       "region": "Ceará",
@@ -25,30 +25,44 @@
   },
   "work": [
     {
-      "name": "NUVEN - IFCE",
-      "position": "Data Scientist Intern",
-      "location": "Maracanaú, CE",
-      "startDate": "2025-07",
-      "summary": "Data platform for social media monitoring and content analysis, focused on intelligence, automation, and decision support.",
+      "name": "Department of Information and Communication Technology (DETIC) - UECE",
+      "position": "Full Stack Developer Intern",
+      "location": "Fortaleza, CE",
+      "startDate": "2026-01",
+      "summary": "Software development project using Java 8 on the backend and JSF with PrimeFaces on the frontend, focused on improving the monolithic academic platform for the graduate studies system at the State University of Ceará.",
       "highlights": [
-        "Designed ETL pipelines to collect, normalize, and enrich data from Instagram, Facebook, and LinkedIn, consolidating 3 networks into a single analytical base for comparison, monitoring, and continuous performance tracking.",
-        "Structured an event-driven integration with Apache Kafka, decoupling ingestion, processing, and analytical consumption while reducing friction between services and development teams.",
-        "Delivered dashboards, analytical queries, and KPIs over thousands of records per cycle, turning raw data into operational visibility for decision-making.",
-        "Applied automatic classification and virality prediction models to structured and unstructured data, scaling analyses that would otherwise depend on manual triage."
+        "Worked on development and maintenance of the academic system, contributing feature implementations and bug fixes.",
+        "Supported requirements gathering and feature validation with the team.",
+        "Handled data using PostgreSQL and Metabase."
       ]
     },
     {
-      "name": "Movias - UECE",
-      "position": "Data Scientist Intern",
+      "name": "Computer Vision and Engineering Center (NUVEN) - IFCE",
+      "position": "Backend, DevOps and Data Developer Intern",
+      "location": "Maracanaú, CE",
+      "startDate": "2025-07",
+      "summary": "Analytical platform for collecting, processing, and interpreting social media data, focused on intelligence, automation, and decision support.",
+      "highlights": [
+        "Designed ETL pipelines to collect, normalize, and enrich data from Instagram, Facebook, and LinkedIn, consolidating multiple sources into a unified analytical base.",
+        "Structured an event-driven integration with Apache Kafka, decoupling ingestion, processing, and consumption to make the data flow more modular and easier to evolve.",
+        "Delivered dashboards, analytical queries, and KPIs over thousands of records per cycle, turning raw data into operational visibility for decision-making.",
+        "Applied automatic classification and virality prediction models to structured and unstructured data, reducing dependency on manual analysis.",
+        "Organized data flows with a focus on traceability, recurring analyses, and continuous evolution of the analytical base."
+      ]
+    },
+    {
+      "name": "Movias Solutions - UECE",
+      "position": "Data Developer Intern",
       "location": "Remote",
       "startDate": "2025-10",
       "endDate": "2026-03",
-      "summary": "Python microservices stack for vehicle data ingestion, updates, and prediction.",
+      "summary": "Data-oriented backend solution with microservices for ingestion, processing, classification, and prediction.",
       "highlights": [
-        "Designed Python/FastAPI microservices and REST APIs for extracting, updating, and predicting vehicle data, separating collection, AI, and integration into a more modular and operable stack.",
-        "Evolved the AI service with CSV ingestion, profile updates, and classification and clustering models with K-Means, automating segmentations that had previously been performed manually.",
-        "Implemented a unified gateway with Swagger/OpenAPI and health checks for 2 critical services, reducing integration friction and accelerating troubleshooting.",
-        "Containerized 100% of the environment with Docker, cutting local setup from hours to minutes and standardizing execution across development and testing."
+        "Modeled a Python/FastAPI microservices architecture, separating ingestion, processing, and prediction responsibilities by domain.",
+        "Developed an AI pipeline with Scikit-Learn, classification, and clustering (K-Means), automating segmentations that previously depended on manual analysis.",
+        "Centralized service access through a gateway with OpenAPI documentation and health checks, improving integration, diagnostics, and observability.",
+        "Standardized the environment with Docker, reducing inconsistencies between development and service execution.",
+        "Structured reusable components to simplify maintenance, service evolution, and integration between pipeline stages."
       ]
     },
     {
@@ -57,12 +71,13 @@
       "location": "Remote",
       "startDate": "2025-05",
       "endDate": "2025-09",
-      "summary": "Evolution of Integra-MEC, SETEC/MEC's administrative system, focused on backend, security, and critical internal workflows.",
+      "summary": "Development and evolution of Integra-MEC, SETEC/MEC's administrative system, focused on backend, security, and critical internal workflows.",
       "highlights": [
-        "Developed full stack modules for Integra-MEC with Java, Spring Boot, Angular, and TypeScript, supporting critical administrative workflows for SETEC/MEC in an institutional environment.",
-        "Implemented authentication, authorization, and access segregation with Keycloak, expanding security and governance for multiple user profiles.",
-        "Delivered REST APIs, filters, pagination, reports, and HTML templates that reduced operational rework and increased the administrative team's autonomy.",
-        "Worked end-to-end on corrective maintenance and feature evolution, connecting backend, frontend, and business rules to accelerate delivery with lower regression risk."
+        "Developed full stack modules with Java, Spring Boot, Angular, and TypeScript, connecting backend, frontend, and business rules in end-to-end features.",
+        "Implemented authentication, authorization, and access control with Keycloak, strengthening security and governance for multiple user profiles.",
+        "Developed REST APIs with filters, pagination, and report generation, reducing operational rework and increasing user autonomy.",
+        "Worked on corrective maintenance and feature evolution by analyzing existing rules, adjusting flows, and delivering improvements with lower regression risk.",
+        "Collaborated on translating administrative requirements into technical solutions aligned with the product's operation."
       ]
     },
     {
@@ -71,12 +86,13 @@
       "location": "Maracanaú, CE",
       "startDate": "2024-10",
       "endDate": "2025-05",
-      "summary": "Backend development in .NET focused on APIs, microservices, and delivery quality.",
+      "summary": "Backend development with C#/.NET, REST APIs, and microservices for the evolution of internal systems.",
       "highlights": [
-        "Developed and maintained REST APIs in C#/.NET for backend services, delivering new endpoints and fixes in a microservices-oriented architecture.",
-        "Applied CQRS to separate commands and queries, simplifying domain evolution and reducing the impact of business-rule changes.",
-        "Implemented MySQL integrations, SQL queries, and unit tests with mocks, increasing backend reliability and reducing regressions across iterative cycles.",
-        "Participated in code reviews and Scrum and Kanban ceremonies, contributing to continuous delivery cadence and raising the team's technical standard."
+        "Developed and maintained REST APIs in C#/.NET in a microservices architecture, delivering new endpoints and continuous improvements to backend services.",
+        "Applied CQRS to separate responsibilities, simplify domain evolution, and reduce coupling between business rules.",
+        "Implemented MySQL integrations, optimized queries, and unit tests with mocks to increase reliability and reduce regressions.",
+        "Participated in corrective and evolutionary maintenance of services, connecting product demands, business rules, and backend implementation.",
+        "Worked on code reviews and Scrum/Kanban ceremonies, contributing to technical consistency, code quality, and knowledge sharing within the team."
       ]
     }
   ],
@@ -85,7 +101,7 @@
       "institution": "Federal Institute of Education, Science and Technology of Ceará (IFCE)",
       "area": "Computer Science",
       "studyType": "Bachelor's Degree",
-      "startDate": "2024",
+      "startDate": "2024-03",
       "endDate": "2028"
     }
   ],
@@ -96,18 +112,19 @@
         "Java",
         "Spring Boot",
         "Python",
-        "Django",
         "FastAPI",
+        "Apache Kafka",
+        "Docker",
+        "REST APIs",
+        "Microservices",
+        "Django",
         "Flask",
         "C#/.NET",
         "ASP.NET Core",
-        "REST APIs",
-        "Microservices",
         "CQRS",
         "JWT",
         "Keycloak (OAuth2, OIDC)",
-        "MinIO",
-        "Apache Kafka"
+        "MinIO"
       ]
     },
     {
@@ -119,6 +136,8 @@
         "Tailwind CSS",
         "JavaScript",
         "TypeScript",
+        "JSF",
+        "PrimeFaces",
         "Angular",
         "Next.js"
       ]
@@ -138,10 +157,21 @@
       "keywords": [
         "NumPy",
         "Pandas",
+        "Scikit-Learn",
         "OpenCV",
         "EasyOCR",
         "YOLO v8/v11",
         "LLM Integration via API"
+      ]
+    },
+    {
+      "name": "Testing",
+      "keywords": [
+        "JUnit",
+        "Mockito",
+        "AssertJ",
+        "JaCoCo",
+        "Testcontainers"
       ]
     },
     {
@@ -174,19 +204,6 @@
       ]
     }
   ],
-  "projects": [
-    {
-      "name": "Gatekeeper",
-      "description": "Continuous automation system to monitor promotions and claim free Epic Games titles, combining integrations, browser automation, hybrid scraping, and containerized operation.",
-      "highlights": [
-        "Built a hybrid scraping pipeline with aiohttp and Playwright to monitor promotions, navigate Epic Games dynamic flows, and execute automatic claiming without manual intervention.",
-        "Implemented end-to-end authentication, redirect handling, and adaptation to layout changes, along with hCaptcha solving through Gemini 2.5 Flash, increasing the robustness of an automation exposed to unstable UI behavior.",
-        "Persisted execution state in SQLite and the browser profile in a dedicated volume, avoiding reprocessing of already claimed items and sustaining recurring execution with local history.",
-        "Containerized the application and automated execution with Docker and GitHub Actions, enabling recurring operation with little manual intervention."
-      ],
-      "url": "https://github.com/nayetdet/gatekeeper"
-    }
-  ],
   "languages": [
     {
       "language": "Portuguese",
@@ -212,6 +229,11 @@
       "name": "React - The Complete Guide (incl. Next.js, Redux)",
       "issuer": "Udemy",
       "date": "2026-02"
+    },
+    {
+      "name": "Spring Boot Expert: JPA, REST, JWT, OAuth2 with Docker and AWS",
+      "issuer": "Udemy",
+      "date": "2026-04"
     }
   ]
 }

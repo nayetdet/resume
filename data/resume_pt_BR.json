@@ -1,10 +1,10 @@
 {
   "basics": {
     "name": "João Pedro Moreira Campos de Lima",
-    "label": "Desenvolvedor Full Stack",
+    "label": "Desenvolvedor Backend | Java/Spring Boot & Python/FastAPI | APIs, Microsserviços e Docker",
     "email": "jpmoreirac21@gmail.com",
     "phone": "+55 85 99628-5653",
-    "summary": "Engenheiro de software backend com foco em automação, dados e sistemas, transformando processos manuais em APIs, microsserviços e pipelines operáveis. Atua com Python/FastAPI, Java/Spring Boot e C#/.NET, além de SQL, Docker e CI/CD, entregando integrações entre serviços, backends orientados a dados e automações resilientes para execução contínua.",
+    "summary": "Desenvolvedor backend especializado na construção de APIs, microsserviços e sistemas orientados a dados com Java/Spring Boot, JSF/PrimeFaces, Python/FastAPI, Docker, Apache Kafka e bancos relacionais/não relacionais. Experiência em pipelines ETL, automações com IA, integrações entre serviços e sistemas administrativos críticos com autenticação, autorização e controle de acesso.",
     "location": {
       "city": "Fortaleza",
       "region": "Ceará",
@@ -25,30 +25,44 @@
   },
   "work": [
     {
-      "name": "NUVEN - IFCE",
-      "position": "Cientista de Dados (Estágio)",
-      "location": "Maracanaú, CE",
-      "startDate": "2025-07",
-      "summary": "Plataforma de dados para monitoramento e análise de conteúdo em redes sociais, com foco em inteligência, automação e suporte à decisão.",
+      "name": "Departamento de Tecnologia de Informação e Comunicação (DETIC) - UECE",
+      "position": "Desenvolvedor Full Stack (Estágio)",
+      "location": "Fortaleza, CE",
+      "startDate": "2026-01",
+      "summary": "Projeto de desenvolvimento de software utilizando Java 8 no back-end e JSF com PrimeFaces no front-end, com o objetivo de aperfeiçoar a plataforma monolítica do sistema acadêmico da pós-graduação da Universidade Estadual do Ceará.",
       "highlights": [
-        "Projetou pipelines ETL para coletar, normalizar e enriquecer dados de Instagram, Facebook e LinkedIn, consolidando 3 redes em uma base analítica única para comparação, monitoramento e leitura contínua de desempenho.",
-        "Estruturou integração orientada a eventos com Apache Kafka, desacoplando ingestão, processamento e consumo analítico e reduzindo atrito entre serviços e times de desenvolvimento.",
-        "Entregou dashboards, consultas analíticas e KPIs sobre milhares de registros por ciclo, convertendo dados brutos em visibilidade operacional para tomada de decisão.",
-        "Aplicou classificação automática e modelos de predição de viralização sobre dados estruturados e não estruturados, escalando análises que antes dependeriam de triagem manual."
+        "Atuação no desenvolvimento e manutenção do sistema acadêmico, contribuindo com implementações e correções de funcionalidades.",
+        "Apoio no levantamento de requisitos e validação de funcionalidades junto à equipe.",
+        "Manipulação de dados com PostgreSQL e Metabase."
       ]
     },
     {
-      "name": "Movias - UECE",
-      "position": "Cientista de Dados (Estágio)",
+      "name": "Núcleo de Visão Computacional e Engenharia (NUVEN) - IFCE",
+      "position": "Desenvolvedor Backend, DevOps e Dados (Estágio)",
+      "location": "Maracanaú, CE",
+      "startDate": "2025-07",
+      "summary": "Plataforma analítica para coleta, processamento e interpretação de dados de redes sociais, com foco em inteligência, automação e suporte à decisão.",
+      "highlights": [
+        "Projetou pipelines ETL para coletar, normalizar e enriquecer dados de Instagram, Facebook e LinkedIn, consolidando múltiplas fontes em uma base analítica unificada.",
+        "Estruturou integração orientada a eventos com Apache Kafka, desacoplando ingestão, processamento e consumo para tornar o fluxo de dados mais modular e evolutivo.",
+        "Desenvolveu dashboards, consultas analíticas e KPIs sobre milhares de registros por ciclo, convertendo dados brutos em visibilidade operacional para tomada de decisão.",
+        "Aplicou classificação automática e modelos de predição de viralização sobre dados estruturados e não estruturados, reduzindo dependência de análises manuais.",
+        "Organizou fluxos de dados com foco em rastreabilidade, recorrência das análises e evolução contínua da base analítica."
+      ]
+    },
+    {
+      "name": "Movias Soluções - UECE",
+      "position": "Desenvolvedor de Dados (Estágio)",
       "location": "Remoto",
       "startDate": "2025-10",
       "endDate": "2026-03",
-      "summary": "Stack de microsserviços em Python para ingestão, atualização e predição de dados veiculares.",
+      "summary": "Solução backend orientada a dados, com microsserviços para ingestão, processamento, classificação e predição.",
       "highlights": [
-        "Projetou microsserviços e APIs REST em Python/FastAPI para extração, atualização e predição de dados veiculares, separando coleta, IA e integração em uma stack mais modular e operável.",
-        "Evoluiu o serviço de IA com ingestão de CSV, atualização de perfis e modelos de classificação e clusterização com K-Means, automatizando segmentações antes executadas manualmente.",
-        "Implementou gateway unificado com Swagger/OpenAPI e health checks para 2 serviços críticos, reduzindo fricção de integração e acelerando troubleshooting.",
-        "Containerizou 100% do ambiente com Docker, reduzindo setup local de horas para minutos e padronizando execução entre desenvolvimento e testes."
+        "Modelou arquitetura de microsserviços em Python/FastAPI, separando responsabilidades de ingestão, processamento e predição por domínio.",
+        "Desenvolveu pipeline de IA com Scikit-Learn, classificação e clusterização (K-Means), automatizando segmentações antes dependentes de análise manual.",
+        "Centralizou o acesso aos serviços por meio de gateway com documentação OpenAPI e health checks, melhorando integração, diagnóstico e observabilidade.",
+        "Padronizou o ambiente com Docker, reduzindo inconsistências entre desenvolvimento e execução dos serviços.",
+        "Estruturou componentes reutilizáveis para facilitar manutenção, evolução dos serviços e integração entre etapas do pipeline."
       ]
     },
     {
@@ -57,12 +71,13 @@
       "location": "Remoto",
       "startDate": "2025-05",
       "endDate": "2025-09",
-      "summary": "Evolução do Integra-MEC, sistema administrativo da SETEC/MEC, com foco em backend, segurança e fluxos internos críticos.",
+      "summary": "Desenvolvimento e evolução do Integra-MEC, sistema administrativo da SETEC/MEC, com foco em backend, segurança e fluxos internos críticos.",
       "highlights": [
-        "Desenvolveu módulos full stack do Integra-MEC com Java, Spring Boot, Angular e TypeScript, sustentando fluxos administrativos críticos da SETEC/MEC em ambiente institucional.",
-        "Implementou autenticação, autorização e segregação de acesso com Keycloak, ampliando segurança e governança para múltiplos perfis de usuário.",
-        "Entregou APIs REST, filtros, paginação, relatórios e templates HTML que reduziram retrabalho operacional e ampliaram autonomia do time administrativo.",
-        "Atuou ponta a ponta em manutenção corretiva e evolutiva, conectando backend, frontend e regras de negócio para acelerar entregas com menor risco de regressão."
+        "Desenvolveu módulos full stack com Java, Spring Boot, Angular e TypeScript, conectando backend, frontend e regras de negócio em funcionalidades ponta a ponta.",
+        "Implementou autenticação, autorização e controle de acesso com Keycloak, fortalecendo segurança e governança para múltiplos perfis de usuário.",
+        "Desenvolveu APIs REST com filtros, paginação e geração de relatórios, reduzindo retrabalho operacional e ampliando autonomia dos usuários.",
+        "Atuou em manutenção corretiva e evolutiva, analisando regras existentes, ajustando fluxos e entregando melhorias com menor risco de regressão.",
+        "Colaborou na tradução de requisitos administrativos em soluções técnicas aderentes ao funcionamento do produto."
       ]
     },
     {
@@ -71,12 +86,13 @@
       "location": "Maracanaú, CE",
       "startDate": "2024-10",
       "endDate": "2025-05",
-      "summary": "Desenvolvimento backend em .NET com foco em APIs, microsserviços e qualidade de entrega.",
+      "summary": "Desenvolvimento backend com C#/.NET, APIs REST e microsserviços para evolução de sistemas internos.",
       "highlights": [
-        "Desenvolveu e manteve APIs REST em C#/.NET para serviços backend, entregando novos endpoints e correções em arquitetura orientada a microsserviços.",
-        "Aplicou CQRS para separar comandos e consultas, simplificando a evolução do domínio e reduzindo impacto de mudanças nas regras de negócio.",
-        "Implementou integrações com MySQL, consultas SQL e testes unitários com mocks, aumentando confiabilidade do backend e reduzindo regressões em ciclos iterativos.",
-        "Participou de code reviews e ritos com Scrum e Kanban, contribuindo para cadência contínua e elevação do padrão técnico do time."
+        "Desenvolveu e manteve APIs REST em C#/.NET em arquitetura de microsserviços, entregando novos endpoints e melhorias contínuas em serviços backend.",
+        "Aplicou CQRS para separar responsabilidades, facilitar a evolução do domínio e reduzir acoplamento entre regras de negócio.",
+        "Implementou integrações com MySQL, queries otimizadas e testes unitários com mocks para aumentar confiabilidade e reduzir regressões.",
+        "Participou da manutenção corretiva e evolutiva dos serviços, conectando demandas de produto, regras de negócio e implementação backend.",
+        "Atuou em code reviews e ritos com Scrum/Kanban, contribuindo para consistência técnica, qualidade de código e compartilhamento de conhecimento no time."
       ]
     }
   ],
@@ -85,7 +101,7 @@
       "institution": "Instituto Federal de Educação, Ciência e Tecnologia do Ceará (IFCE)",
       "area": "Ciência da Computação",
       "studyType": "Bacharelado",
-      "startDate": "2024",
+      "startDate": "2024-03",
       "endDate": "2028"
     }
   ],
@@ -96,18 +112,19 @@
         "Java",
         "Spring Boot",
         "Python",
-        "Django",
         "FastAPI",
+        "Apache Kafka",
+        "Docker",
+        "APIs REST",
+        "Microserviços",
+        "Django",
         "Flask",
         "C#/.NET",
         "ASP.NET Core",
-        "APIs REST",
-        "Microserviços",
         "CQRS",
         "JWT",
         "Keycloak (OAuth2, OIDC)",
-        "MinIO",
-        "Apache Kafka"
+        "MinIO"
       ]
     },
     {
@@ -119,6 +136,8 @@
         "Tailwind CSS",
         "JavaScript",
         "TypeScript",
+        "JSF",
+        "PrimeFaces",
         "Angular",
         "Next.js"
       ]
@@ -138,10 +157,21 @@
       "keywords": [
         "NumPy",
         "Pandas",
+        "Scikit-Learn",
         "OpenCV",
         "EasyOCR",
         "YOLO v8/v11",
         "Integração de LLM via API"
+      ]
+    },
+    {
+      "name": "Testes",
+      "keywords": [
+        "JUnit",
+        "Mockito",
+        "AssertJ",
+        "JaCoCo",
+        "Testcontainers"
       ]
     },
     {
@@ -174,19 +204,6 @@
       ]
     }
   ],
-  "projects": [
-    {
-      "name": "Gatekeeper",
-      "description": "Sistema de automação contínua para monitorar promoções e resgatar jogos gratuitos da Epic Games, combinando integrações, browser automation, scraping híbrido e operação containerizada.",
-      "highlights": [
-        "Construiu um pipeline de scraping híbrido com aiohttp e Playwright para monitorar promoções, navegar fluxos dinâmicos da Epic Games e executar o resgate automático sem intervenção manual.",
-        "Implementou autenticação end-to-end, tratamento de redirecionamentos e adaptação a mudanças de layout, além de resolução de hCaptcha com Gemini 2.5 Flash, elevando a robustez de uma automação exposta a UI instável.",
-        "Persistiu estado de execução em SQLite e perfil de navegador em volume dedicado, evitando reprocessamento de itens já resgatados e sustentando execução recorrente com histórico local.",
-        "Containerizou a aplicação e automatizou a execução com Docker e GitHub Actions, permitindo operação recorrente com pouca intervenção manual."
-      ],
-      "url": "https://github.com/nayetdet/gatekeeper"
-    }
-  ],
   "languages": [
     {
       "language": "Português",
@@ -212,6 +229,11 @@
       "name": "React - The Complete Guide (incl. Next.js, Redux)",
       "issuer": "Udemy",
       "date": "2026-02"
+    },
+    {
+      "name": "Spring Boot Expert: JPA, REST, JWT, OAuth2 com Docker e AWS",
+      "issuer": "Udemy",
+      "date": "2026-04"
     }
   ]
 }
