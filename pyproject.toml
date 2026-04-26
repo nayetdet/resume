@@ -5,8 +5,8 @@ description = ""
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
-    "antimeta-resume",
+    "softworker>=1.0.0",
 ]
 
 [tool.uv.sources]
-antimeta-resume = { git = "https://github.com/garapatech/antimeta-resume.git" }
+softworker = { git = "https://github.com/garapatech/softworker.git" }

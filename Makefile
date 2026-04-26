@@ -6,7 +6,7 @@ install:
 pdf: pdf_en pdf_pt_BR
 
 pdf_en:
-	uv run -m antimeta_resume data/resume_en.json generated/resume_en.pdf
+	uv run -m softworker data/resume_en_US.json --language en_US generated/resume_en_US.pdf
 
 pdf_pt_BR:
-	uv run -m antimeta_resume data/resume_pt_BR.json generated/resume_pt_BR.pdf
+	uv run -m softworker data/resume_pt_BR.json --language pt_BR generated/resume_pt_BR.pdf

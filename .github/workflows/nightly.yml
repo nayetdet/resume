@@ -7,7 +7,7 @@ on:
 
 env:
   ARTIFACT_NAME: resume
-  EN_BASENAME: resume_en
+  EN_BASENAME: resume_en_US
   PT_BR_BASENAME: resume_pt_BR
 
 jobs:
@@ -16,7 +16,7 @@ jobs:
     env:
       DATA_DIRECTORY: data
       OUTPUT_DIRECTORY: generated
-      IMAGE: ghcr.io/garapatech/antimeta-resume:latest
+      IMAGE: ghcr.io/garapatech/softworker:latest
 
     steps:
       - name: Checkout
@@ -37,7 +37,7 @@ jobs:
               -v "${{ github.workspace }}/${{ env.DATA_DIRECTORY }}:/app/${{ env.DATA_DIRECTORY }}" \
               -v "${{ github.workspace }}/${{ env.OUTPUT_DIRECTORY }}:/app/${{ env.OUTPUT_DIRECTORY }}" \
               ${{ env.IMAGE }} \
-              python -m antimeta_resume \
+              python -m softworker --language "${basename#resume_}" \
               ${{ env.DATA_DIRECTORY }}/"${basename}.json" \
               ${{ env.OUTPUT_DIRECTORY }}/"${basename}.pdf"
           done
