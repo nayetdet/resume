@@ -16,7 +16,7 @@ jobs:
     env:
       DATA_DIRECTORY: data
       OUTPUT_DIRECTORY: generated
-      IMAGE: ghcr.io/garapatech/softworker:latest
+      IMAGE: ghcr.io/nayetdet/softworker:latest
 
     steps:
       - name: Checkout

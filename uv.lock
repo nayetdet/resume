@@ -360,7 +360,7 @@ dependencies = [
 ]
 
 [package.metadata]
-requires-dist = [{ name = "softworker", git = "https://github.com/garapatech/softworker.git" }]
+requires-dist = [{ name = "softworker", git = "https://github.com/nayetdet/softworker.git" }]
 
 [[package]]
 name = "rich"
@@ -387,7 +387,7 @@ wheels = [
 [[package]]
 name = "softworker"
 version = "1.0.0"
-source = { git = "https://github.com/garapatech/softworker.git#0b25319ea0f3c9c64fe06ffb9dc63b04ac015936" }
+source = { git = "https://github.com/nayetdet/softworker.git#3c9a3f1733aae0ace7cc3a650ba830facccbe8f7" }
 dependencies = [
     { name = "jsonata-python" },
     { name = "pybars3" },

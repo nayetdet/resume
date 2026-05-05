@@ -9,4 +9,4 @@ dependencies = [
 ]
 
 [tool.uv.sources]
-softworker = { git = "https://github.com/garapatech/softworker.git" }
+softworker = { git = "https://github.com/nayetdet/softworker.git" }
