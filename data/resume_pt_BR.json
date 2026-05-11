@@ -234,6 +234,11 @@
       "name": "Spring Boot Expert: JPA, REST, JWT, OAuth2 com Docker e AWS",
       "issuer": "Udemy",
       "date": "2026-04"
+    },
+    {
+      "name": "Java Unit Testing com Spring Boot, TDD, Junit e Mockito",
+      "issuer": "Udemy",
+      "date": "2026-05"
     }
   ]
 }

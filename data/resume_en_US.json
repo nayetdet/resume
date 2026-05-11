@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "João Pedro Moreira Campos de Lima",
-    "label": "Backend Developer | Java/Spring Boot & Python/FastAPI | APIs, Microservices and Docker",
+    "label": "Backend Developer | Java/Spring Boot & Python/FastAPI | APIs, Microservices & Docker",
     "email": "jpmoreirac21@gmail.com",
     "phone": "+55 85 99628-5653",
     "summary": "Backend developer specialized in building APIs, microservices, and data-oriented systems with Java/Spring Boot, JSF/PrimeFaces, Python/FastAPI, Docker, Apache Kafka, and relational/non-relational databases. Experienced in ETL pipelines, AI automations, service integrations, and critical administrative systems with authentication, authorization, and access control.",
@@ -31,7 +31,7 @@
       "startDate": "2026-01",
       "summary": "Software development project using Java 8 on the backend and JSF with PrimeFaces on the frontend, focused on improving the monolithic academic platform for the graduate studies system at the State University of Ceará.",
       "highlights": [
-        "Worked on development and maintenance of the academic system, contributing feature implementations and bug fixes.",
+        "Worked on the development and maintenance of the academic system, contributing feature implementations and bug fixes.",
         "Supported requirements gathering and feature validation with the team.",
         "Handled data using PostgreSQL and Metabase."
       ]
@@ -45,7 +45,7 @@
       "highlights": [
         "Designed ETL pipelines to collect, normalize, and enrich data from Instagram, Facebook, and LinkedIn, consolidating multiple sources into a unified analytical base.",
         "Structured an event-driven integration with Apache Kafka, decoupling ingestion, processing, and consumption to make the data flow more modular and easier to evolve.",
-        "Delivered dashboards, analytical queries, and KPIs over thousands of records per cycle, turning raw data into operational visibility for decision-making.",
+        "Developed dashboards, analytical queries, and KPIs over thousands of records per cycle, turning raw data into operational visibility for decision-making.",
         "Applied automatic classification and virality prediction models to structured and unstructured data, reducing dependency on manual analysis.",
         "Organized data flows with a focus on traceability, recurring analyses, and continuous evolution of the analytical base."
       ]
@@ -81,7 +81,7 @@
       ]
     },
     {
-      "name": "Núcleo de Desenvolvimento de Software (NDS) - IFCE",
+      "name": "Software Development Center (NDS) - IFCE",
       "position": "Backend Developer Intern",
       "location": "Maracanaú, CE",
       "startDate": "2024-10",
@@ -234,6 +234,11 @@
       "name": "Spring Boot Expert: JPA, REST, JWT, OAuth2 with Docker and AWS",
       "issuer": "Udemy",
       "date": "2026-04"
+    },
+    {
+      "name": "Java Unit Testing with Spring Boot, TDD, JUnit, and Mockito",
+      "issuer": "Udemy",
+      "date": "2026-05"
     }
   ]
 }
