@@ -4,7 +4,7 @@
     "label": "Backend Developer | Java/Spring Boot & Python/FastAPI | APIs, Microservices & Docker",
     "email": "jpmoreirac21@gmail.com",
     "phone": "+55 85 99628-5653",
-    "summary": "Backend developer specialized in building APIs, microservices, and data-oriented systems with Java/Spring Boot, JSF/PrimeFaces, Python/FastAPI, Docker, Apache Kafka, and relational/non-relational databases. Experienced in ETL pipelines, AI automations, service integrations, and critical administrative systems with authentication, authorization, and access control.",
+    "summary": "Backend developer specialized in building APIs, microservices, and data-oriented systems with Java/Spring Boot, Python/FastAPI, Docker, Apache Kafka, and relational/non-relational databases. Experienced in ETL pipelines, AI automations, service integrations, and critical administrative systems with authentication, authorization, and access control.",
     "location": {
       "city": "Fortaleza",
       "region": "Ceará",
@@ -24,18 +24,6 @@
     ]
   },
   "work": [
-    {
-      "name": "Department of Information and Communication Technology (DETIC) - UECE",
-      "position": "Full Stack Developer Intern",
-      "location": "Fortaleza, CE",
-      "startDate": "2026-01",
-      "summary": "Software development project using Java 8 on the backend and JSF with PrimeFaces on the frontend, focused on improving the monolithic academic platform for the graduate studies system at the State University of Ceará.",
-      "highlights": [
-        "Worked on the development and maintenance of the academic system, contributing feature implementations and bug fixes.",
-        "Supported requirements gathering and feature validation with the team.",
-        "Handled data using PostgreSQL and Metabase."
-      ]
-    },
     {
       "name": "Computer Vision and Engineering Center (NUVEN) - IFCE",
       "position": "Backend, DevOps and Data Developer Intern",
@@ -136,8 +124,6 @@
         "Tailwind CSS",
         "JavaScript",
         "TypeScript",
-        "JSF",
-        "PrimeFaces",
         "Angular",
         "Next.js"
       ]
@@ -178,6 +164,7 @@
       "name": "DevOps & Tools",
       "keywords": [
         "Docker",
+        "Kubernetes",
         "Git",
         "GitHub Actions",
         "CI/CD (GitHub Actions)",

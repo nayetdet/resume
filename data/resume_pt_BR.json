@@ -4,7 +4,7 @@
     "label": "Desenvolvedor Backend | Java/Spring Boot & Python/FastAPI | APIs, Microsserviços e Docker",
     "email": "jpmoreirac21@gmail.com",
     "phone": "+55 85 99628-5653",
-    "summary": "Desenvolvedor backend especializado na construção de APIs, microsserviços e sistemas orientados a dados com Java/Spring Boot, JSF/PrimeFaces, Python/FastAPI, Docker, Apache Kafka e bancos relacionais/não relacionais. Experiência em pipelines ETL, automações com IA, integrações entre serviços e sistemas administrativos críticos com autenticação, autorização e controle de acesso.",
+    "summary": "Desenvolvedor backend especializado na construção de APIs, microsserviços e sistemas orientados a dados com Java/Spring Boot, Python/FastAPI, Docker, Apache Kafka e bancos relacionais/não relacionais. Experiência em pipelines ETL, automações com IA, integrações entre serviços e sistemas administrativos críticos com autenticação, autorização e controle de acesso.",
     "location": {
       "city": "Fortaleza",
       "region": "Ceará",
@@ -24,18 +24,6 @@
     ]
   },
   "work": [
-    {
-      "name": "Departamento de Tecnologia de Informação e Comunicação (DETIC) - UECE",
-      "position": "Desenvolvedor Full Stack (Estágio)",
-      "location": "Fortaleza, CE",
-      "startDate": "2026-01",
-      "summary": "Projeto de desenvolvimento de software utilizando Java 8 no back-end e JSF com PrimeFaces no front-end, com o objetivo de aperfeiçoar a plataforma monolítica do sistema acadêmico da pós-graduação da Universidade Estadual do Ceará.",
-      "highlights": [
-        "Atuação no desenvolvimento e manutenção do sistema acadêmico, contribuindo com implementações e correções de funcionalidades.",
-        "Apoio no levantamento de requisitos e validação de funcionalidades junto à equipe.",
-        "Manipulação de dados com PostgreSQL e Metabase."
-      ]
-    },
     {
       "name": "Núcleo de Visão Computacional e Engenharia (NUVEN) - IFCE",
       "position": "Desenvolvedor Backend, DevOps e Dados (Estágio)",
@@ -136,8 +124,6 @@
         "Tailwind CSS",
         "JavaScript",
         "TypeScript",
-        "JSF",
-        "PrimeFaces",
         "Angular",
         "Next.js"
       ]
@@ -178,6 +164,7 @@
       "name": "DevOps & Ferramentas",
       "keywords": [
         "Docker",
+        "Kubernetes",
         "Git",
         "GitHub Actions",
         "CI/CD (GitHub Actions)",
