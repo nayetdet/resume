@@ -1,10 +1,10 @@
 {
   "basics": {
     "name": "João Pedro Moreira Campos de Lima",
-    "label": "Desenvolvedor Backend | Java/Spring Boot & Python/FastAPI | APIs, Microsserviços e Docker",
+    "label": "Software Engineer | Full Stack | Java/Spring Boot, Python/FastAPI, Node.js, React | APIs REST, Microsserviços | Docker, Kubernetes, CI/CD",
     "email": "jpmoreirac21@gmail.com",
     "phone": "+55 85 99628-5653",
-    "summary": "Desenvolvedor backend especializado na construção de APIs, microsserviços e sistemas orientados a dados com Java/Spring Boot, Python/FastAPI, Docker, Apache Kafka e bancos relacionais/não relacionais. Experiência em pipelines ETL, automações com IA, integrações entre serviços e sistemas administrativos críticos com autenticação, autorização e controle de acesso.",
+    "summary": "Desenvolvedor full stack focado em construir produtos de ponta a ponta com Java/Spring Boot, Python/FastAPI, Node.js e React. Atua em frontend, backend, integrações, APIs, microsserviços, Docker, Kubernetes, Apache Kafka, bancos relacionais e não relacionais, pipelines ETL, automações com IA e sistemas administrativos críticos com autenticação, autorização e controle de acesso.",
     "location": {
       "city": "Fortaleza",
       "region": "Ceará",
@@ -25,8 +25,22 @@
   },
   "work": [
     {
+      "name": "Laboratório de Telemática, Acessibilidade e Projetos Educacionais (LTAP) - IFCE",
+      "position": "Desenvolvedor Full Stack (Node.js, React, Elysia)",
+      "location": "Maracanaú, CE",
+      "startDate": "2026-05",
+      "summary": "Plataforma institucional para publicação, monitoramento e gestão de aplicações, com foco em automação de deploy, integração com GitHub, controle de acesso e provisionamento de ambientes.",
+      "highlights": [
+        "Desenvolveu backend e frontend da plataforma com TypeScript, Bun, Elysia e React, estruturando rotas, interfaces e fluxos de uso para gestão de projetos, ambientes e deploys.",
+        "Modelou o ciclo de vida de projetos e ambientes, incluindo produção, desenvolvimento e homologação, com regras de criação, exclusão e herança de configurações.",
+        "Implementou integração com Coolify para provisionamento de aplicações, bancos de dados e execução de deploys, reduzindo atrito operacional no fluxo de publicação.",
+        "Estruturou o gerenciamento de variáveis de ambiente com Prisma e PostgreSQL, incluindo sincronização entre a plataforma e a infraestrutura de deploy.",
+        "Desenvolveu mecanismos de autenticação, autorização e convites de acesso, com controle de permissões por projeto, rastreabilidade de ações e suporte ao fluxo de CI/CD."
+      ]
+    },
+    {
       "name": "Núcleo de Visão Computacional e Engenharia (NUVEN) - IFCE",
-      "position": "Desenvolvedor Backend, DevOps e Dados (Estágio)",
+      "position": "Desenvolvedor Backend com foco em Dados (Python, FastAPI)",
       "location": "Maracanaú, CE",
       "startDate": "2025-07",
       "summary": "Plataforma analítica para coleta, processamento e interpretação de dados de redes sociais, com foco em inteligência, automação e suporte à decisão.",
@@ -40,7 +54,7 @@
     },
     {
       "name": "Movias Soluções - UECE",
-      "position": "Desenvolvedor de Dados (Estágio)",
+      "position": "Desenvolvedor Backend com foco em Dados (Python, FastAPI)",
       "location": "Remoto",
       "startDate": "2025-10",
       "endDate": "2026-03",
@@ -55,9 +69,9 @@
     },
     {
       "name": "LabVicia - IFCE",
-      "position": "Desenvolvedor Full Stack (Estágio)",
+      "position": "Desenvolvedor Full Stack (Java, Spring Boot, Angular)",
       "location": "Remoto",
-      "startDate": "2025-05",
+      "startDate": "2025-04",
       "endDate": "2025-09",
       "summary": "Desenvolvimento e evolução do Integra-MEC, sistema administrativo da SETEC/MEC, com foco em backend, segurança e fluxos internos críticos.",
       "highlights": [
@@ -70,7 +84,7 @@
     },
     {
       "name": "Núcleo de Desenvolvimento de Software (NDS) - IFCE",
-      "position": "Desenvolvedor Backend (Estágio)",
+      "position": "Desenvolvedor Backend (C#, .NET)",
       "location": "Maracanaú, CE",
       "startDate": "2024-10",
       "endDate": "2025-05",
@@ -90,7 +104,7 @@
       "area": "Ciência da Computação",
       "studyType": "Bacharelado",
       "startDate": "2024-03",
-      "endDate": "2028"
+      "endDate": "2027"
     }
   ],
   "skills": [
@@ -101,6 +115,8 @@
         "Spring Boot",
         "Python",
         "FastAPI",
+        "Node.js",
+        "Elysia",
         "Apache Kafka",
         "Docker",
         "APIs REST",
@@ -125,6 +141,7 @@
         "JavaScript",
         "TypeScript",
         "Angular",
+        "React",
         "Next.js"
       ]
     },
@@ -213,11 +230,6 @@
       "date": "2025-07-01"
     },
     {
-      "name": "React - The Complete Guide (incl. Next.js, Redux)",
-      "issuer": "Udemy",
-      "date": "2026-02"
-    },
-    {
       "name": "Spring Boot Expert: JPA, REST, JWT, OAuth2 com Docker e AWS",
       "issuer": "Udemy",
       "date": "2026-04"
@@ -226,6 +238,16 @@
       "name": "Java Unit Testing com Spring Boot, TDD, Junit e Mockito",
       "issuer": "Udemy",
       "date": "2026-05"
+    },
+    {
+      "name": "Domine Microservicos e Mensageria com Spring Cloud e Docker",
+      "issuer": "Udemy",
+      "date": "2026-06"
+    },
+    {
+      "name": "Kubernetes: Do Básico ao Avançado",
+      "issuer": "Udemy",
+      "date": "2026-06"
     }
   ]
 }

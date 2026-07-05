@@ -1,10 +1,10 @@
 {
   "basics": {
     "name": "João Pedro Moreira Campos de Lima",
-    "label": "Backend Developer | Java/Spring Boot & Python/FastAPI | APIs, Microservices & Docker",
+    "label": "Software Engineer | Full Stack | Java/Spring Boot, Python/FastAPI, Node.js, React | APIs REST, Microsserviços | Docker, Kubernetes, CI/CD",
     "email": "jpmoreirac21@gmail.com",
     "phone": "+55 85 99628-5653",
-    "summary": "Backend developer specialized in building APIs, microservices, and data-oriented systems with Java/Spring Boot, Python/FastAPI, Docker, Apache Kafka, and relational/non-relational databases. Experienced in ETL pipelines, AI automations, service integrations, and critical administrative systems with authentication, authorization, and access control.",
+    "summary": "Full stack developer focused on building end-to-end products with Java/Spring Boot, Python/FastAPI, Node.js, and React. Works across frontend, backend, integrations, APIs, microservices, Docker, Kubernetes, Apache Kafka, relational and non-relational databases, ETL pipelines, AI automations, and critical administrative systems with authentication, authorization, and access control.",
     "location": {
       "city": "Fortaleza",
       "region": "Ceará",
@@ -25,8 +25,22 @@
   },
   "work": [
     {
+      "name": "Laboratory of Telematics, Accessibility and Educational Projects (LTAP) - IFCE",
+      "position": "Full Stack Developer (Node.js, React, Elysia)",
+      "location": "Maracanaú, CE",
+      "startDate": "2026-05",
+      "summary": "Institutional platform for publishing, monitoring, and managing applications, focused on deploy automation, GitHub integration, access control, and environment provisioning.",
+      "highlights": [
+        "Developed both backend and frontend of the platform with TypeScript, Bun, Elysia, and React, structuring routes, interfaces, and usage flows for project, environment, and deploy management.",
+        "Modeled the lifecycle of projects and environments, including production, development, and staging, with rules for creation, deletion, and configuration inheritance.",
+        "Implemented integration with Coolify for application provisioning, database setup, and deploy execution, reducing operational friction in the publication flow.",
+        "Structured environment variable management with Prisma and PostgreSQL, including synchronization between the platform and the deploy infrastructure.",
+        "Built authentication, authorization, and access-invitation mechanisms with project-level permissions, action traceability, and CI/CD support."
+      ]
+    },
+    {
       "name": "Computer Vision and Engineering Center (NUVEN) - IFCE",
-      "position": "Backend, DevOps and Data Developer Intern",
+      "position": "Backend Developer focused on Data (Python, FastAPI)",
       "location": "Maracanaú, CE",
       "startDate": "2025-07",
       "summary": "Analytical platform for collecting, processing, and interpreting social media data, focused on intelligence, automation, and decision support.",
@@ -40,7 +54,7 @@
     },
     {
       "name": "Movias Solutions - UECE",
-      "position": "Data Developer Intern",
+      "position": "Backend Developer focused on Data (Python, FastAPI)",
       "location": "Remote",
       "startDate": "2025-10",
       "endDate": "2026-03",
@@ -55,9 +69,9 @@
     },
     {
       "name": "LabVicia - IFCE",
-      "position": "Full Stack Developer Intern",
+      "position": "Full Stack Developer (Java, Spring Boot, Angular)",
       "location": "Remote",
-      "startDate": "2025-05",
+      "startDate": "2025-04",
       "endDate": "2025-09",
       "summary": "Development and evolution of Integra-MEC, SETEC/MEC's administrative system, focused on backend, security, and critical internal workflows.",
       "highlights": [
@@ -70,7 +84,7 @@
     },
     {
       "name": "Software Development Center (NDS) - IFCE",
-      "position": "Backend Developer Intern",
+      "position": "Backend Developer (C#, .NET)",
       "location": "Maracanaú, CE",
       "startDate": "2024-10",
       "endDate": "2025-05",
@@ -90,7 +104,7 @@
       "area": "Computer Science",
       "studyType": "Bachelor's Degree",
       "startDate": "2024-03",
-      "endDate": "2028"
+      "endDate": "2027"
     }
   ],
   "skills": [
@@ -101,6 +115,8 @@
         "Spring Boot",
         "Python",
         "FastAPI",
+        "Node.js",
+        "Elysia",
         "Apache Kafka",
         "Docker",
         "REST APIs",
@@ -125,6 +141,7 @@
         "JavaScript",
         "TypeScript",
         "Angular",
+        "React",
         "Next.js"
       ]
     },
@@ -213,11 +230,6 @@
       "date": "2025-07-01"
     },
     {
-      "name": "React - The Complete Guide (incl. Next.js, Redux)",
-      "issuer": "Udemy",
-      "date": "2026-02"
-    },
-    {
       "name": "Spring Boot Expert: JPA, REST, JWT, OAuth2 with Docker and AWS",
       "issuer": "Udemy",
       "date": "2026-04"
@@ -226,6 +238,16 @@
       "name": "Java Unit Testing with Spring Boot, TDD, JUnit, and Mockito",
       "issuer": "Udemy",
       "date": "2026-05"
+    },
+    {
+      "name": "Master Microservices and Messaging with Spring Cloud and Docker",
+      "issuer": "Udemy",
+      "date": "2026-06"
+    },
+    {
+      "name": "Kubernetes: From Basics to Advanced",
+      "issuer": "Udemy",
+      "date": "2026-06"
     }
   ]
 }
