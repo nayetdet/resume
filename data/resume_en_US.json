@@ -220,34 +220,9 @@
   ],
   "certificates": [
     {
-      "name": "English Course - Intermediate Level",
-      "issuer": "Language and Education Center of Ceará (CLEC)",
-      "date": "2021-07-01"
-    },
-    {
       "name": "English Course - Advanced Level",
       "issuer": "Language and Education Center of Ceará (CLEC)",
       "date": "2025-07-01"
-    },
-    {
-      "name": "Spring Boot Expert: JPA, REST, JWT, OAuth2 with Docker and AWS",
-      "issuer": "Udemy",
-      "date": "2026-04"
-    },
-    {
-      "name": "Java Unit Testing with Spring Boot, TDD, JUnit, and Mockito",
-      "issuer": "Udemy",
-      "date": "2026-05"
-    },
-    {
-      "name": "Master Microservices and Messaging with Spring Cloud and Docker",
-      "issuer": "Udemy",
-      "date": "2026-06"
-    },
-    {
-      "name": "Kubernetes: From Basics to Advanced",
-      "issuer": "Udemy",
-      "date": "2026-06"
     }
   ]
 }
