@@ -1,13 +1,15 @@
-# Currículo
+# Résumé
 
-Currículos em PDF gerados a partir dos arquivos em `data/` e publicados na release `nightly`.
+My professional résumé maintained in a structured format.
+
+PDF résumés are generated from the files in `data/` and published in the `nightly` release.
 
 ## Downloads
 
-- [Currículo em português](https://github.com/nayetdet/resume/releases/download/nightly/resume_pt_BR.pdf)
-- [Currículo em inglês](https://github.com/nayetdet/resume/releases/download/nightly/resume_en_US.pdf)
+- [Portuguese résumé](https://github.com/nayetdet/resume/releases/download/nightly/resume_pt_BR.pdf)
+- [English résumé](https://github.com/nayetdet/resume/releases/download/nightly/resume_en_US.pdf)
 
-## Fonte
+## Source files
 
 - `data/resume_pt_BR.json`
 - `data/resume_en_US.json`
