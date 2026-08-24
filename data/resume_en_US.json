@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "João Pedro Moreira Campos de Lima",
-    "label": "Software Engineer | Full Stack | Java/Spring Boot, Python/FastAPI, Node.js, React | APIs REST, Microsserviços | Docker, Kubernetes, CI/CD",
+    "label": "Software Engineer | Full Stack | Java/Spring Boot, Python/FastAPI, Node.js, React | REST APIs, Microservices | Docker, Kubernetes, CI/CD",
     "email": "jpmoreirac21@gmail.com",
     "phone": "+55 (85) 99815-1718",
     "summary": "Software Engineer with experience building backend platforms, web products, and data-driven solutions. Works from architecture through delivery, automating processes, modernizing legacy systems, and building secure, scalable integrations with Java/Spring Boot, Python/FastAPI, Node.js, and React.",
@@ -29,7 +29,7 @@
       "position": "Full Stack Developer (Node.js, React, Elysia)",
       "location": "Maracanaú, CE",
       "startDate": "2026-05",
-      "summary": "Institutional PaaS that centralizes project, environment, and deployment management, integrated with GitHub and Coolify.",
+      "summary": "Contributed to the development of an institutional PaaS that centralizes project, environment, and deployment management, integrated with GitHub and Coolify.",
       "highlights": [
         "Architected the institutional PaaS with TypeScript, Bun, Elysia, and React, establishing boundaries across management, infrastructure, and publication.",
         "Modeled lifecycles for 3 environments, development, staging, and production, with configuration inheritance in Prisma and PostgreSQL.",
@@ -42,7 +42,7 @@
       "position": "Backend Developer focused on Data (Python, FastAPI)",
       "location": "Maracanaú, CE",
       "startDate": "2025-07",
-      "summary": "Analytics platform that turns social-media data into intelligence and decision support.",
+      "summary": "Contributed to the development of an analytics platform that turns social-media data into intelligence and decision support.",
       "highlights": [
         "Architected ETL pipelines, unifying ingestion and processing for data from 3 social networks in a single analytical base.",
         "Designed an event-driven Kafka platform, decoupling the services in the data flow.",
@@ -56,7 +56,7 @@
       "location": "Remote",
       "startDate": "2025-10",
       "endDate": "2026-03",
-      "summary": "Data-oriented backend solution with microservices for ingestion, processing, classification, and prediction.",
+      "summary": "Contributed to the development of a data-driven backend solution with microservices for ingestion, processing, and prediction.",
       "highlights": [
         "Architected Python/FastAPI microservices, isolating ingestion, processing, and prediction domains.",
         "Structured reusable components to support independent evolution of services and data-pipeline stages.",
@@ -70,7 +70,7 @@
       "location": "Remote",
       "startDate": "2025-04",
       "endDate": "2025-09",
-      "summary": "Evolution of Integra-MEC, SETEC/MEC's administrative system, focused on security, business rules, and internal workflows.",
+      "summary": "Contributed to the evolution of Integra-MEC, SETEC/MEC's administrative system, with a focus on security, business rules, and internal workflows.",
       "highlights": [
         "Structured Integra-MEC's identity and access layer with Keycloak, defining permissions for platform user profiles.",
         "Led full-stack delivery with Java, Spring Boot, Angular, and TypeScript, connecting business rules and UI in critical administrative workflows.",
@@ -84,7 +84,7 @@
       "location": "Maracanaú, CE",
       "startDate": "2024-10",
       "endDate": "2025-05",
-      "summary": "Evolution of internal systems with C#/.NET, REST APIs, and a modular-monolith architecture.",
+      "summary": "Contributed to the evolution of internal systems built with C#/.NET, REST APIs, and a modular-monolith architecture.",
       "highlights": [
         "Led the migration of a legacy system to a new C#/.NET API, preserving business rules and reducing transition risk.",
         "Restructured the domain with CQRS, decoupling commands and queries to accelerate product evolution.",
@@ -184,7 +184,7 @@
       "position": "Full Stack Developer - Open Source Contribution",
       "url": "https://github.com/Universidade-Livre/universidade",
       "startDate": "2025-08",
-      "summary": "Technical leadership in the evolution of UBL, an open-source academic platform for student progress tracking.",
+      "summary": "Contributed to the development and evolution of UBL, an open-source academic platform for student progress tracking.",
       "highlights": [
         "Led the modernization of the open-source academic platform with Next.js, React, and TypeScript, establishing a sustainable foundation for evolution.",
         "Designed the backend with tRPC, Prisma, and PostgreSQL, embedding authentication and authorization with Better Auth from the outset.",

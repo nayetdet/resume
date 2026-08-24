@@ -29,7 +29,7 @@
       "position": "Desenvolvedor Full Stack (Node.js, React, Elysia)",
       "location": "Maracanaú, CE",
       "startDate": "2026-05",
-      "summary": "PaaS institucional que centraliza a gestão de projetos, ambientes e deploys, integrado ao GitHub e ao Coolify.",
+      "summary": "Atuei no desenvolvimento de um PaaS institucional que centraliza a gestão de projetos, ambientes e deploys, integrado ao GitHub e ao Coolify.",
       "highlights": [
         "Arquiteturei o PaaS institucional em TypeScript, Bun, Elysia e React, estabelecendo fronteiras entre gestão, infraestrutura e publicação.",
         "Modelei o ciclo de vida de 3 ambientes, desenvolvimento, homologação e produção, com herança de configurações em Prisma e PostgreSQL.",
@@ -42,7 +42,7 @@
       "position": "Desenvolvedor Backend com foco em Dados (Python, FastAPI)",
       "location": "Maracanaú, CE",
       "startDate": "2025-07",
-      "summary": "Plataforma analítica para transformar dados de redes sociais em inteligência e suporte à decisão.",
+      "summary": "Atuei no desenvolvimento de uma plataforma analítica para transformar dados de redes sociais em inteligência e suporte à decisão.",
       "highlights": [
         "Arquiteturei pipelines ETL, unificando a ingestão e o processamento de dados de 3 redes sociais em uma base analítica única.",
         "Projetei uma plataforma orientada a eventos com Kafka, desacoplando os serviços do fluxo de dados.",
@@ -56,7 +56,7 @@
       "location": "Remoto",
       "startDate": "2025-10",
       "endDate": "2026-03",
-      "summary": "Solução backend orientada a dados, composta por microsserviços de ingestão, processamento e predição.",
+      "summary": "Atuei no desenvolvimento de uma solução backend orientada a dados, composta por microsserviços de ingestão, processamento e predição.",
       "highlights": [
         "Arquiteturei microsserviços em Python/FastAPI, isolando os domínios de ingestão, processamento e predição.",
         "Estruturei componentes reutilizáveis para sustentar a evolução independente dos serviços e das etapas do pipeline de dados.",
@@ -70,7 +70,7 @@
       "location": "Remoto",
       "startDate": "2025-04",
       "endDate": "2025-09",
-      "summary": "Evolução do Integra-MEC, sistema administrativo da SETEC/MEC, com foco em segurança, regras de negócio e fluxos internos.",
+      "summary": "Atuei na evolução do Integra-MEC, sistema administrativo da SETEC/MEC, com foco em segurança, regras de negócio e fluxos internos.",
       "highlights": [
         "Estruturei a camada de identidade e acesso do Integra-MEC com Keycloak, definindo permissões para os perfis da plataforma.",
         "Conduzi entregas full stack em Java, Spring Boot, Angular e TypeScript, conectando regras de negócio e interface em fluxos administrativos críticos.",
@@ -84,7 +84,7 @@
       "location": "Maracanaú, CE",
       "startDate": "2024-10",
       "endDate": "2025-05",
-      "summary": "Evolução de sistemas internos em C#/.NET, APIs REST e arquitetura de monólito modular.",
+      "summary": "Atuei na evolução de sistemas internos em C#/.NET, APIs REST e arquitetura de monólito modular.",
       "highlights": [
         "Conduzi a migração de um sistema legado para uma nova API em C#/.NET, preservando regras de negócio e reduzindo risco na transição.",
         "Reestruturei o domínio com CQRS, desacoplando comandos e consultas para acelerar a evolução do produto.",
@@ -184,7 +184,7 @@
       "position": "Desenvolvedor Full Stack - Contribuição Open Source",
       "url": "https://github.com/Universidade-Livre/universidade",
       "startDate": "2025-08",
-      "summary": "Liderança técnica na evolução da UBL, plataforma acadêmica open source para acompanhamento estudantil.",
+      "summary": "Atuei no desenvolvimento e na evolução da UBL, plataforma acadêmica open source para acompanhamento estudantil.",
       "highlights": [
         "Liderei a modernização da plataforma acadêmica open source com Next.js, React e TypeScript, estabelecendo uma base sustentável para evolução.",
         "Projetei o backend com tRPC, Prisma e PostgreSQL, incorporando autenticação e autorização com Better Auth desde a fundação.",
