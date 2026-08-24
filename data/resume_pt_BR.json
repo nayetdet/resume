@@ -4,7 +4,7 @@
     "label": "Software Engineer | Full Stack | Java/Spring Boot, Python/FastAPI, Node.js, React | APIs REST, Microsserviços | Docker, Kubernetes, CI/CD",
     "email": "jpmoreirac21@gmail.com",
     "phone": "+55 (85) 99815-1718",
-    "summary": "Desenvolvedor full stack focado em construir produtos de ponta a ponta com Java/Spring Boot, Python/FastAPI, Node.js e React. Atua em frontend, backend, integrações, APIs, microsserviços, Docker, Kubernetes, Apache Kafka, bancos relacionais e não relacionais, pipelines ETL, automações com IA e sistemas administrativos críticos com autenticação, autorização e controle de acesso.",
+    "summary": "Engenheiro de Software com experiência no desenvolvimento de plataformas backend, produtos web e soluções orientadas a dados. Atuo da arquitetura à entrega, automatizando processos, modernizando sistemas legados e construindo integrações seguras e escaláveis com Java/Spring Boot, Python/FastAPI, Node.js e React.",
     "location": {
       "city": "Fortaleza",
       "region": "Ceará",
@@ -29,13 +29,12 @@
       "position": "Desenvolvedor Full Stack (Node.js, React, Elysia)",
       "location": "Maracanaú, CE",
       "startDate": "2026-05",
-      "summary": "Plataforma institucional para publicação, monitoramento e gestão de aplicações, com foco em automação de deploy, integração com GitHub, controle de acesso e provisionamento de ambientes.",
+      "summary": "PaaS institucional que centraliza a gestão de projetos, ambientes e deploys, integrado ao GitHub e ao Coolify.",
       "highlights": [
-        "Desenvolveu backend e frontend da plataforma com TypeScript, Bun, Elysia e React, estruturando rotas, interfaces e fluxos de uso para gestão de projetos, ambientes e deploys.",
-        "Modelou o ciclo de vida de projetos e ambientes, incluindo produção, desenvolvimento e homologação, com regras de criação, exclusão e herança de configurações.",
-        "Implementou integração com Coolify para provisionamento de aplicações, bancos de dados e execução de deploys, reduzindo atrito operacional no fluxo de publicação.",
-        "Estruturou o gerenciamento de variáveis de ambiente com Prisma e PostgreSQL, incluindo sincronização entre a plataforma e a infraestrutura de deploy.",
-        "Desenvolveu mecanismos de autenticação, autorização e convites de acesso, com controle de permissões por projeto, rastreabilidade de ações e suporte ao fluxo de CI/CD."
+        "Arquiteturei o PaaS institucional em TypeScript, Bun, Elysia e React, estabelecendo fronteiras entre gestão, infraestrutura e publicação.",
+        "Modelei o ciclo de vida de 3 ambientes, desenvolvimento, homologação e produção, com herança de configurações em Prisma e PostgreSQL.",
+        "Integrei GitHub e Coolify, incorporando provisionamento de aplicações e bancos de dados e deploys ao fluxo de gestão de projetos.",
+        "Estabeleci controles de acesso por projeto, incluindo autenticação, autorização, convites e rastreabilidade, para dar governança às operações da plataforma."
       ]
     },
     {
@@ -43,13 +42,12 @@
       "position": "Desenvolvedor Backend com foco em Dados (Python, FastAPI)",
       "location": "Maracanaú, CE",
       "startDate": "2025-07",
-      "summary": "Plataforma analítica para coleta, processamento e interpretação de dados de redes sociais, com foco em inteligência, automação e suporte à decisão.",
+      "summary": "Plataforma analítica para transformar dados de redes sociais em inteligência e suporte à decisão.",
       "highlights": [
-        "Projetou pipelines ETL para coletar, normalizar e enriquecer dados de Instagram, Facebook e LinkedIn, consolidando múltiplas fontes em uma base analítica unificada.",
-        "Estruturou integração orientada a eventos com Apache Kafka, desacoplando ingestão, processamento e consumo para tornar o fluxo de dados mais modular e evolutivo.",
-        "Desenvolveu dashboards, consultas analíticas e KPIs sobre milhares de registros por ciclo, convertendo dados brutos em visibilidade operacional para tomada de decisão.",
-        "Aplicou classificação automática e modelos de predição de viralização sobre dados estruturados e não estruturados, reduzindo dependência de análises manuais.",
-        "Organizou fluxos de dados com foco em rastreabilidade, recorrência das análises e evolução contínua da base analítica."
+        "Arquiteturei pipelines ETL, unificando a ingestão e o processamento de dados de 3 redes sociais em uma base analítica única.",
+        "Projetei uma plataforma orientada a eventos com Kafka, desacoplando os serviços do fluxo de dados.",
+        "Automatizei classificação de conteúdo e predição de viralização, escalando a priorização analítica além da triagem manual.",
+        "Converti milhares de registros por ciclo em dashboards, consultas e KPIs acionáveis para 2 equipes multidisciplinares."
       ]
     },
     {
@@ -58,13 +56,12 @@
       "location": "Remoto",
       "startDate": "2025-10",
       "endDate": "2026-03",
-      "summary": "Solução backend orientada a dados, com microsserviços para ingestão, processamento, classificação e predição.",
+      "summary": "Solução backend orientada a dados, composta por microsserviços de ingestão, processamento e predição.",
       "highlights": [
-        "Modelou arquitetura de microsserviços em Python/FastAPI, separando responsabilidades de ingestão, processamento e predição por domínio.",
-        "Desenvolveu pipeline de IA com Scikit-Learn, classificação e clusterização (K-Means), automatizando segmentações antes dependentes de análise manual.",
-        "Centralizou o acesso aos serviços por meio de gateway com documentação OpenAPI e health checks, melhorando integração, diagnóstico e observabilidade.",
-        "Padronizou o ambiente com Docker, reduzindo inconsistências entre desenvolvimento e execução dos serviços.",
-        "Estruturou componentes reutilizáveis para facilitar manutenção, evolução dos serviços e integração entre etapas do pipeline."
+        "Arquiteturei microsserviços em Python/FastAPI, isolando os domínios de ingestão, processamento e predição.",
+        "Estruturei componentes reutilizáveis para sustentar a evolução independente dos serviços e das etapas do pipeline de dados.",
+        "Industrializei segmentações antes manuais com um pipeline de IA baseado em Scikit-Learn, classificação e K-Means.",
+        "Padronizei o acesso à plataforma por meio de um API gateway, reduzindo a complexidade de integração para os consumidores."
       ]
     },
     {
@@ -73,13 +70,12 @@
       "location": "Remoto",
       "startDate": "2025-04",
       "endDate": "2025-09",
-      "summary": "Desenvolvimento e evolução do Integra-MEC, sistema administrativo da SETEC/MEC, com foco em backend, segurança e fluxos internos críticos.",
+      "summary": "Evolução do Integra-MEC, sistema administrativo da SETEC/MEC, com foco em segurança, regras de negócio e fluxos internos.",
       "highlights": [
-        "Desenvolveu módulos full stack com Java, Spring Boot, Angular e TypeScript, conectando backend, frontend e regras de negócio em funcionalidades ponta a ponta.",
-        "Implementou autenticação, autorização e controle de acesso com Keycloak, fortalecendo segurança e governança para múltiplos perfis de usuário.",
-        "Desenvolveu APIs REST com filtros, paginação e geração de relatórios, reduzindo retrabalho operacional e ampliando autonomia dos usuários.",
-        "Atuou em manutenção corretiva e evolutiva, analisando regras existentes, ajustando fluxos e entregando melhorias com menor risco de regressão.",
-        "Colaborou na tradução de requisitos administrativos em soluções técnicas aderentes ao funcionamento do produto."
+        "Estruturei a camada de identidade e acesso do Integra-MEC com Keycloak, definindo permissões para os perfis da plataforma.",
+        "Conduzi entregas full stack em Java, Spring Boot, Angular e TypeScript, conectando regras de negócio e interface em fluxos administrativos críticos.",
+        "Projetei APIs REST com filtros, paginação e relatórios para sustentar os fluxos administrativos.",
+        "Reestruturei a geração de documentos com JasperReports e evoluí regras legadas, fortalecendo continuidade operacional e mitigando regressões."
       ]
     },
     {
@@ -88,13 +84,12 @@
       "location": "Maracanaú, CE",
       "startDate": "2024-10",
       "endDate": "2025-05",
-      "summary": "Desenvolvimento backend com C#/.NET, APIs REST e microsserviços para evolução de sistemas internos.",
+      "summary": "Evolução de sistemas internos em C#/.NET, APIs REST e arquitetura de monólito modular.",
       "highlights": [
-        "Desenvolveu e manteve APIs REST em C#/.NET em arquitetura de microsserviços, entregando novos endpoints e melhorias contínuas em serviços backend.",
-        "Aplicou CQRS para separar responsabilidades, facilitar a evolução do domínio e reduzir acoplamento entre regras de negócio.",
-        "Implementou integrações com MySQL, queries otimizadas e testes unitários com mocks para aumentar confiabilidade e reduzir regressões.",
-        "Participou da manutenção corretiva e evolutiva dos serviços, conectando demandas de produto, regras de negócio e implementação backend.",
-        "Atuou em code reviews e ritos com Scrum/Kanban, contribuindo para consistência técnica, qualidade de código e compartilhamento de conhecimento no time."
+        "Conduzi a migração de um sistema legado para uma nova API em C#/.NET, preservando regras de negócio e reduzindo risco na transição.",
+        "Reestruturei o domínio com CQRS, desacoplando comandos e consultas para acelerar a evolução do produto.",
+        "Elevei a previsibilidade das entregas com testes unitários e code reviews.",
+        "Promovi alinhamento técnico entre frontend, DevOps, QA e design para assegurar integrações e entregas consistentes."
       ]
     }
   ],
@@ -115,20 +110,19 @@
         "Spring Boot",
         "Python",
         "FastAPI",
+        "Django",
+        "Flask",
         "Node.js",
         "Elysia",
         "Apache Kafka",
-        "Docker",
         "APIs REST",
-        "Microserviços",
-        "Django",
-        "Flask",
+        "Microsserviços",
         "C#/.NET",
         "ASP.NET Core",
         "CQRS",
         "JWT",
         "Keycloak (OAuth2, OIDC)",
-        "MinIO"
+        "Better Auth"
       ]
     },
     {
@@ -156,15 +150,21 @@
       ]
     },
     {
-      "name": "Dados, IA & Visão Computacional",
+      "name": "DevOps & Ferramentas",
       "keywords": [
-        "NumPy",
-        "Pandas",
-        "Scikit-Learn",
-        "OpenCV",
-        "EasyOCR",
-        "YOLO v8/v11",
-        "Integração de LLM via API"
+        "Linux",
+        "Git",
+        "Docker",
+        "Kubernetes",
+        "Terraform",
+        "Ansible",
+        "GitHub Actions",
+        "CI/CD",
+        "NGINX",
+        "Caddy",
+        "Swagger/OpenAPI",
+        "Selenium",
+        "Playwright"
       ]
     },
     {
@@ -176,21 +176,6 @@
         "JaCoCo",
         "Testcontainers"
       ]
-    },
-    {
-      "name": "DevOps & Ferramentas",
-      "keywords": [
-        "Docker",
-        "Kubernetes",
-        "Git",
-        "GitHub Actions",
-        "CI/CD (GitHub Actions)",
-        "Swagger/OpenAPI",
-        "NGINX",
-        "Caddy",
-        "Selenium",
-        "Playwright"
-      ]
     }
   ],
   "volunteer": [
@@ -199,12 +184,12 @@
       "position": "Desenvolvedor Full Stack - Contribuição Open Source",
       "url": "https://github.com/Universidade-Livre/universidade",
       "startDate": "2025-08",
-      "summary": "Contribuição open source na evolução da UBL, plataforma acadêmica para consulta de grades, disciplinas e progresso estudantil.",
+      "summary": "Liderança técnica na evolução da UBL, plataforma acadêmica open source para acompanhamento estudantil.",
       "highlights": [
-        "Contribuiu para o portal acadêmico da UBL com Next.js, React, TypeScript, tRPC, Prisma e PostgreSQL, evoluindo navegação curricular e consulta de disciplinas para 2 cursos de graduação.",
-        "Implementou autenticação, proteção de rotas, validações e rate limiting, fortalecendo segurança e confiabilidade para uso público e autenticado.",
-        "Desenvolveu fluxos de acompanhamento de progresso e organização de trilhas, reduzindo fricção de uso e melhorando descoberta de conteúdo.",
-        "Padronizou ambiente e entrega com Docker, Prisma e GitHub Actions, automatizando build e deploy via CI/CD."
+        "Liderei a modernização da plataforma acadêmica open source com Next.js, React e TypeScript, estabelecendo uma base sustentável para evolução.",
+        "Projetei o backend com tRPC, Prisma e PostgreSQL, incorporando autenticação e autorização com Better Auth desde a fundação.",
+        "Estruturei trilhas curriculares e acompanhamento de progresso para dois cursos de graduação.",
+        "Automatizei a entrega contínua com Docker e GitHub Actions, estabelecendo um pipeline de CI/CD para o projeto."
       ]
     }
   ],

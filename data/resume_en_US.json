@@ -4,7 +4,7 @@
     "label": "Software Engineer | Full Stack | Java/Spring Boot, Python/FastAPI, Node.js, React | APIs REST, Microsserviços | Docker, Kubernetes, CI/CD",
     "email": "jpmoreirac21@gmail.com",
     "phone": "+55 (85) 99815-1718",
-    "summary": "Full stack developer focused on building end-to-end products with Java/Spring Boot, Python/FastAPI, Node.js, and React. Works across frontend, backend, integrations, APIs, microservices, Docker, Kubernetes, Apache Kafka, relational and non-relational databases, ETL pipelines, AI automations, and critical administrative systems with authentication, authorization, and access control.",
+    "summary": "Software Engineer with experience building backend platforms, web products, and data-driven solutions. Works from architecture through delivery, automating processes, modernizing legacy systems, and building secure, scalable integrations with Java/Spring Boot, Python/FastAPI, Node.js, and React.",
     "location": {
       "city": "Fortaleza",
       "region": "Ceará",
@@ -29,13 +29,12 @@
       "position": "Full Stack Developer (Node.js, React, Elysia)",
       "location": "Maracanaú, CE",
       "startDate": "2026-05",
-      "summary": "Institutional platform for publishing, monitoring, and managing applications, focused on deploy automation, GitHub integration, access control, and environment provisioning.",
+      "summary": "Institutional PaaS that centralizes project, environment, and deployment management, integrated with GitHub and Coolify.",
       "highlights": [
-        "Developed both backend and frontend of the platform with TypeScript, Bun, Elysia, and React, structuring routes, interfaces, and usage flows for project, environment, and deploy management.",
-        "Modeled the lifecycle of projects and environments, including production, development, and staging, with rules for creation, deletion, and configuration inheritance.",
-        "Implemented integration with Coolify for application provisioning, database setup, and deploy execution, reducing operational friction in the publication flow.",
-        "Structured environment variable management with Prisma and PostgreSQL, including synchronization between the platform and the deploy infrastructure.",
-        "Built authentication, authorization, and access-invitation mechanisms with project-level permissions, action traceability, and CI/CD support."
+        "Architected the institutional PaaS with TypeScript, Bun, Elysia, and React, establishing boundaries across management, infrastructure, and publication.",
+        "Modeled lifecycles for 3 environments, development, staging, and production, with configuration inheritance in Prisma and PostgreSQL.",
+        "Integrated GitHub and Coolify, incorporating application and database provisioning and deployments into the project-management workflow.",
+        "Established project-level access controls, including authentication, authorization, invitations, and operational traceability, to govern platform operations."
       ]
     },
     {
@@ -43,13 +42,12 @@
       "position": "Backend Developer focused on Data (Python, FastAPI)",
       "location": "Maracanaú, CE",
       "startDate": "2025-07",
-      "summary": "Analytical platform for collecting, processing, and interpreting social media data, focused on intelligence, automation, and decision support.",
+      "summary": "Analytics platform that turns social-media data into intelligence and decision support.",
       "highlights": [
-        "Designed ETL pipelines to collect, normalize, and enrich data from Instagram, Facebook, and LinkedIn, consolidating multiple sources into a unified analytical base.",
-        "Structured an event-driven integration with Apache Kafka, decoupling ingestion, processing, and consumption to make the data flow more modular and easier to evolve.",
-        "Developed dashboards, analytical queries, and KPIs over thousands of records per cycle, turning raw data into operational visibility for decision-making.",
-        "Applied automatic classification and virality prediction models to structured and unstructured data, reducing dependency on manual analysis.",
-        "Organized data flows with a focus on traceability, recurring analyses, and continuous evolution of the analytical base."
+        "Architected ETL pipelines, unifying ingestion and processing for data from 3 social networks in a single analytical base.",
+        "Designed an event-driven Kafka platform, decoupling the services in the data flow.",
+        "Automated content classification and virality prediction, scaling analytical prioritization beyond manual triage.",
+        "Converted thousands of records per cycle into actionable dashboards, queries, and KPIs for 2 multidisciplinary teams."
       ]
     },
     {
@@ -60,11 +58,10 @@
       "endDate": "2026-03",
       "summary": "Data-oriented backend solution with microservices for ingestion, processing, classification, and prediction.",
       "highlights": [
-        "Modeled a Python/FastAPI microservices architecture, separating ingestion, processing, and prediction responsibilities by domain.",
-        "Developed an AI pipeline with Scikit-Learn, classification, and clustering (K-Means), automating segmentations that previously depended on manual analysis.",
-        "Centralized service access through a gateway with OpenAPI documentation and health checks, improving integration, diagnostics, and observability.",
-        "Standardized the environment with Docker, reducing inconsistencies between development and service execution.",
-        "Structured reusable components to simplify maintenance, service evolution, and integration between pipeline stages."
+        "Architected Python/FastAPI microservices, isolating ingestion, processing, and prediction domains.",
+        "Structured reusable components to support independent evolution of services and data-pipeline stages.",
+        "Industrialized previously manual segmentation with an AI pipeline based on Scikit-Learn, classification, and K-Means.",
+        "Standardized platform access through an API gateway, reducing integration complexity for consumers."
       ]
     },
     {
@@ -73,13 +70,12 @@
       "location": "Remote",
       "startDate": "2025-04",
       "endDate": "2025-09",
-      "summary": "Development and evolution of Integra-MEC, SETEC/MEC's administrative system, focused on backend, security, and critical internal workflows.",
+      "summary": "Evolution of Integra-MEC, SETEC/MEC's administrative system, focused on security, business rules, and internal workflows.",
       "highlights": [
-        "Developed full stack modules with Java, Spring Boot, Angular, and TypeScript, connecting backend, frontend, and business rules in end-to-end features.",
-        "Implemented authentication, authorization, and access control with Keycloak, strengthening security and governance for multiple user profiles.",
-        "Developed REST APIs with filters, pagination, and report generation, reducing operational rework and increasing user autonomy.",
-        "Worked on corrective maintenance and feature evolution by analyzing existing rules, adjusting flows, and delivering improvements with lower regression risk.",
-        "Collaborated on translating administrative requirements into technical solutions aligned with the product's operation."
+        "Structured Integra-MEC's identity and access layer with Keycloak, defining permissions for platform user profiles.",
+        "Led full-stack delivery with Java, Spring Boot, Angular, and TypeScript, connecting business rules and UI in critical administrative workflows.",
+        "Designed REST APIs with filtering, pagination, and reporting to support administrative workflows.",
+        "Restructured document generation with JasperReports and evolved legacy rules, strengthening operational continuity and mitigating regressions."
       ]
     },
     {
@@ -88,13 +84,12 @@
       "location": "Maracanaú, CE",
       "startDate": "2024-10",
       "endDate": "2025-05",
-      "summary": "Backend development with C#/.NET, REST APIs, and microservices for the evolution of internal systems.",
+      "summary": "Evolution of internal systems with C#/.NET, REST APIs, and a modular-monolith architecture.",
       "highlights": [
-        "Developed and maintained REST APIs in C#/.NET in a microservices architecture, delivering new endpoints and continuous improvements to backend services.",
-        "Applied CQRS to separate responsibilities, simplify domain evolution, and reduce coupling between business rules.",
-        "Implemented MySQL integrations, optimized queries, and unit tests with mocks to increase reliability and reduce regressions.",
-        "Participated in corrective and evolutionary maintenance of services, connecting product demands, business rules, and backend implementation.",
-        "Worked on code reviews and Scrum/Kanban ceremonies, contributing to technical consistency, code quality, and knowledge sharing within the team."
+        "Led the migration of a legacy system to a new C#/.NET API, preserving business rules and reducing transition risk.",
+        "Restructured the domain with CQRS, decoupling commands and queries to accelerate product evolution.",
+        "Increased delivery predictability through unit tests and code reviews.",
+        "Drove technical alignment across frontend, DevOps, QA, and design to ensure consistent integrations and delivery."
       ]
     }
   ],
@@ -115,20 +110,19 @@
         "Spring Boot",
         "Python",
         "FastAPI",
+        "Django",
+        "Flask",
         "Node.js",
         "Elysia",
         "Apache Kafka",
-        "Docker",
         "REST APIs",
         "Microservices",
-        "Django",
-        "Flask",
         "C#/.NET",
         "ASP.NET Core",
         "CQRS",
         "JWT",
         "Keycloak (OAuth2, OIDC)",
-        "MinIO"
+        "Better Auth"
       ]
     },
     {
@@ -156,15 +150,21 @@
       ]
     },
     {
-      "name": "Data, AI & Computer Vision",
+      "name": "DevOps & Tools",
       "keywords": [
-        "NumPy",
-        "Pandas",
-        "Scikit-Learn",
-        "OpenCV",
-        "EasyOCR",
-        "YOLO v8/v11",
-        "LLM Integration via API"
+        "Linux",
+        "Git",
+        "Docker",
+        "Kubernetes",
+        "Terraform",
+        "Ansible",
+        "GitHub Actions",
+        "CI/CD",
+        "NGINX",
+        "Caddy",
+        "Swagger/OpenAPI",
+        "Selenium",
+        "Playwright"
       ]
     },
     {
@@ -176,21 +176,6 @@
         "JaCoCo",
         "Testcontainers"
       ]
-    },
-    {
-      "name": "DevOps & Tools",
-      "keywords": [
-        "Docker",
-        "Kubernetes",
-        "Git",
-        "GitHub Actions",
-        "CI/CD (GitHub Actions)",
-        "Swagger/OpenAPI",
-        "NGINX",
-        "Caddy",
-        "Selenium",
-        "Playwright"
-      ]
     }
   ],
   "volunteer": [
@@ -199,12 +184,12 @@
       "position": "Full Stack Developer - Open Source Contribution",
       "url": "https://github.com/Universidade-Livre/universidade",
       "startDate": "2025-08",
-      "summary": "Open source contribution to the evolution of UBL, an academic platform for browsing curricula, courses, and student progress.",
+      "summary": "Technical leadership in the evolution of UBL, an open-source academic platform for student progress tracking.",
       "highlights": [
-        "Contributed to UBL's academic portal with Next.js, React, TypeScript, tRPC, Prisma, and PostgreSQL, improving curriculum navigation and course lookup for 2 undergraduate programs.",
-        "Implemented authentication, route protection, validations, and rate limiting, strengthening security and reliability for public and authenticated usage.",
-        "Developed progress-tracking flows and learning-path organization, reducing usage friction and improving content discovery.",
-        "Standardized the environment and delivery with Docker, Prisma, and GitHub Actions, automating build and deployment through CI/CD."
+        "Led the modernization of the open-source academic platform with Next.js, React, and TypeScript, establishing a sustainable foundation for evolution.",
+        "Designed the backend with tRPC, Prisma, and PostgreSQL, embedding authentication and authorization with Better Auth from the outset.",
+        "Structured curriculum paths and progress tracking for two undergraduate programs.",
+        "Automated continuous delivery with Docker and GitHub Actions, establishing a CI/CD pipeline for the project."
       ]
     }
   ],
