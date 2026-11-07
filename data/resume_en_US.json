@@ -23,6 +23,7 @@
       },
       {
         "network": "Portfolio",
+        "username": "nayetdet",
         "url": "https://nayetdet.dev"
       }
     ]
@@ -121,8 +122,8 @@
         "REST APIs",
         "Microservices",
         "CQRS",
-        "JWT",
-        "Keycloak (OAuth2, OIDC)"
+        "Keycloak (OAuth2, OIDC)",
+        "JWT"
       ]
     },
     {
@@ -134,9 +135,9 @@
         "Tailwind CSS",
         "JavaScript",
         "TypeScript",
-        "Angular",
         "React",
-        "Next.js"
+        "Next.js",
+        "Angular"
       ]
     },
     {
@@ -145,15 +146,14 @@
         "PostgreSQL",
         "MySQL",
         "MongoDB",
-        "Redis",
-        "Elasticsearch"
+        "Redis"
       ]
     },
     {
       "name": "Messaging",
       "keywords": [
-        "RabbitMQ",
-        "Apache Kafka"
+        "Apache Kafka",
+        "RabbitMQ"
       ]
     },
     {
@@ -164,12 +164,13 @@
         "Git",
         "Docker",
         "Kubernetes",
+        "Helm",
+        "Argo CD",
         "Terraform",
         "Ansible",
-        "GitHub Actions",
         "CI/CD",
+        "GitHub Actions",
         "NGINX",
-        "Caddy",
         "Swagger/OpenAPI"
       ]
     },
@@ -177,17 +178,17 @@
       "name": "Observability",
       "keywords": [
         "OpenTelemetry",
+        "Jaeger",
         "Prometheus",
-        "Grafana",
-        "Jaeger"
+        "Grafana"
       ]
     },
     {
       "name": "Testing",
       "keywords": [
         "Testcontainers",
-        "Selenium",
-        "Playwright"
+        "Playwright",
+        "Selenium"
       ]
     }
   ],
