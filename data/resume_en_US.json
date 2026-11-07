@@ -118,11 +118,8 @@
         "Flask",
         "Node.js",
         "Elysia",
-        "Apache Kafka",
         "REST APIs",
         "Microservices",
-        "C#/.NET",
-        "ASP.NET Core",
         "CQRS",
         "JWT",
         "Keycloak (OAuth2, OIDC)"
@@ -153,24 +150,16 @@
       ]
     },
     {
-      "name": "Infrastructure & DevOps",
+      "name": "Messaging",
       "keywords": [
         "RabbitMQ",
         "Apache Kafka"
       ]
     },
     {
-      "name": "Observability",
+      "name": "Infrastructure & DevOps",
       "keywords": [
-        "OpenTelemetry",
-        "Prometheus",
-        "Grafana",
-        "Jaeger"
-      ]
-    },
-    {
-      "name": "DevOps & Tools",
-      "keywords": [
+        "Bash",
         "Linux",
         "Git",
         "Docker",
@@ -182,6 +171,15 @@
         "NGINX",
         "Caddy",
         "Swagger/OpenAPI"
+      ]
+    },
+    {
+      "name": "Observability",
+      "keywords": [
+        "OpenTelemetry",
+        "Prometheus",
+        "Grafana",
+        "Jaeger"
       ]
     },
     {
