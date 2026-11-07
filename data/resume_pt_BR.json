@@ -20,12 +20,16 @@
         "network": "GitHub",
         "username": "nayetdet",
         "url": "https://github.com/nayetdet"
+      },
+      {
+        "network": "Portfolio",
+        "url": "https://nayetdet.dev"
       }
     ]
   },
   "work": [
     {
-      "name": "Laboratório de Telemática, Acessibilidade e Projetos Educacionais (LTAP) - IFCE",
+      "name": "Laboratório de Telemática, Acessibilidade e Projetos Educacionais (LTAP)",
       "position": "Desenvolvedor Full Stack (Node.js, React, Elysia)",
       "location": "Maracanaú, CE",
       "startDate": "2026-05",
@@ -38,7 +42,7 @@
       ]
     },
     {
-      "name": "Núcleo de Visão Computacional e Engenharia (NUVEN) - IFCE",
+      "name": "Núcleo de Visão Computacional e Engenharia (NUVEN)",
       "position": "Desenvolvedor Backend com foco em Dados (Python, FastAPI)",
       "location": "Maracanaú, CE",
       "startDate": "2025-07",
@@ -51,7 +55,7 @@
       ]
     },
     {
-      "name": "Movias Soluções - UECE",
+      "name": "IEPRO - Instituto de Estudos, Pesquisas e Projetos da UECE",
       "position": "Desenvolvedor Backend com foco em Dados (Python, FastAPI)",
       "location": "Remoto",
       "startDate": "2025-10",
@@ -65,7 +69,7 @@
       ]
     },
     {
-      "name": "LabVicia - IFCE",
+      "name": "LabVicia",
       "position": "Desenvolvedor Full Stack (Java, Spring Boot, Angular)",
       "location": "Remoto",
       "startDate": "2025-04",
@@ -79,7 +83,7 @@
       ]
     },
     {
-      "name": "Núcleo de Desenvolvimento de Software (NDS) - IFCE",
+      "name": "Núcleo de Desenvolvimento de Software (NDS)",
       "position": "Desenvolvedor Backend (C#, .NET)",
       "location": "Maracanaú, CE",
       "startDate": "2024-10",
@@ -121,8 +125,7 @@
         "ASP.NET Core",
         "CQRS",
         "JWT",
-        "Keycloak (OAuth2, OIDC)",
-        "Better Auth"
+        "Keycloak (OAuth2, OIDC)"
       ]
     },
     {
@@ -150,6 +153,22 @@
       ]
     },
     {
+      "name": "Infraestrutura e DevOps",
+      "keywords": [
+        "RabbitMQ",
+        "Apache Kafka"
+      ]
+    },
+    {
+      "name": "Observabilidade",
+      "keywords": [
+        "OpenTelemetry",
+        "Prometheus",
+        "Grafana",
+        "Jaeger"
+      ]
+    },
+    {
       "name": "DevOps & Ferramentas",
       "keywords": [
         "Linux",
@@ -162,19 +181,15 @@
         "CI/CD",
         "NGINX",
         "Caddy",
-        "Swagger/OpenAPI",
-        "Selenium",
-        "Playwright"
+        "Swagger/OpenAPI"
       ]
     },
     {
       "name": "Testes",
       "keywords": [
-        "JUnit",
-        "Mockito",
-        "AssertJ",
-        "JaCoCo",
-        "Testcontainers"
+        "Testcontainers",
+        "Selenium",
+        "Playwright"
       ]
     }
   ],

@@ -20,12 +20,16 @@
         "network": "GitHub",
         "username": "nayetdet",
         "url": "https://github.com/nayetdet"
+      },
+      {
+        "network": "Portfolio",
+        "url": "https://nayetdet.dev"
       }
     ]
   },
   "work": [
     {
-      "name": "Laboratory of Telematics, Accessibility and Educational Projects (LTAP) - IFCE",
+      "name": "Laboratory of Telematics, Accessibility and Educational Projects (LTAP)",
       "position": "Full Stack Developer (Node.js, React, Elysia)",
       "location": "Maracanaú, CE",
       "startDate": "2026-05",
@@ -38,7 +42,7 @@
       ]
     },
     {
-      "name": "Computer Vision and Engineering Center (NUVEN) - IFCE",
+      "name": "Computer Vision and Engineering Center (NUVEN)",
       "position": "Backend Developer focused on Data (Python, FastAPI)",
       "location": "Maracanaú, CE",
       "startDate": "2025-07",
@@ -51,7 +55,7 @@
       ]
     },
     {
-      "name": "Movias Solutions - UECE",
+      "name": "IEPRO - Institute of Studies, Research and Projects of UECE",
       "position": "Backend Developer focused on Data (Python, FastAPI)",
       "location": "Remote",
       "startDate": "2025-10",
@@ -65,7 +69,7 @@
       ]
     },
     {
-      "name": "LabVicia - IFCE",
+      "name": "LabVicia",
       "position": "Full Stack Developer (Java, Spring Boot, Angular)",
       "location": "Remote",
       "startDate": "2025-04",
@@ -79,7 +83,7 @@
       ]
     },
     {
-      "name": "Software Development Center (NDS) - IFCE",
+      "name": "Software Development Center (NDS)",
       "position": "Backend Developer (C#, .NET)",
       "location": "Maracanaú, CE",
       "startDate": "2024-10",
@@ -121,8 +125,7 @@
         "ASP.NET Core",
         "CQRS",
         "JWT",
-        "Keycloak (OAuth2, OIDC)",
-        "Better Auth"
+        "Keycloak (OAuth2, OIDC)"
       ]
     },
     {
@@ -150,6 +153,22 @@
       ]
     },
     {
+      "name": "Infrastructure & DevOps",
+      "keywords": [
+        "RabbitMQ",
+        "Apache Kafka"
+      ]
+    },
+    {
+      "name": "Observability",
+      "keywords": [
+        "OpenTelemetry",
+        "Prometheus",
+        "Grafana",
+        "Jaeger"
+      ]
+    },
+    {
       "name": "DevOps & Tools",
       "keywords": [
         "Linux",
@@ -162,19 +181,15 @@
         "CI/CD",
         "NGINX",
         "Caddy",
-        "Swagger/OpenAPI",
-        "Selenium",
-        "Playwright"
+        "Swagger/OpenAPI"
       ]
     },
     {
       "name": "Testing",
       "keywords": [
-        "JUnit",
-        "Mockito",
-        "AssertJ",
-        "JaCoCo",
-        "Testcontainers"
+        "Testcontainers",
+        "Selenium",
+        "Playwright"
       ]
     }
   ],
